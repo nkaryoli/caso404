@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caso 404</title>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <h1>CASO 404</h1>
+      <div class="">
+        <div id="player-info" class="player-info">
+          <!-- Aquí aparecerá el nombre del jugador -->
+        </div>
+      </div>
+      <button id="logout-button" class="logout-button hidden">
+        Cerrar sesion
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="screen">
+        <div class="intro">
+          <p class="case-number">EXPEDIENTE #404</p>
+          <h2>EL SERVIDOR HA DESAPARECIDO</h2>
+          <p>
+            Un servidor crítico ha desaparecido de la red. Necesitamos un
+            investigador capaz de resolver las pruebas y encontrar las pistas
+            necesarias para localizarlo.
+          </p>
+          <p>Introduce tu nombre de investigador para comenzar.</p>
+
+          <div class="username-form">
+            <label for="username">Nombre de investigador</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Introduce tu nombre..."
+              autocomplete="off"
+            />
+            <button id="start-button">INICIAR INVESTIGACIÓN</button>
+            <p id="error-message" class="error-message"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="game" class="screen hidden">
+        <div class="game-container">
+          <div class="case-progress" aria-label="Progreso de la partida">
+            <div class="progress-track" aria-hidden="true">
+              <span
+                id="progress-fill"
+                class="progress-fill"
+                style="width: 0%"
+              ></span>
+            </div>
+            <p id="progress-text" class="progress-text">PROGRESO 0 / 0</p>
+          </div>
+
+          <div id="questions-list" class="questions-list">
+            <!-- Las preguntas se crearán aquí con JavaScript -->
+          </div>
+
+          <div class="global-actions">
+            <p id="global-game-message" class="game-message"></p>
+            <button id="global-check-button" class="check-button hidden">
+              COMPROBAR RESPUESTA
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./src/js/app.js"></script>
+    <div id="results-modal" class="modal hidden">
+      <div class="modal-content">
+        <p class="modal-case">EXPEDIENTE #404</p>
+
+        <h2 id="results-title">EXPEDIENTE CERRADO</h2>
+
+        <p id="results-subtitle"></p>
+
+        <div class="statistics">
+          <div class="stat">
+            <span class="stat-label">PREGUNTAS</span>
+            <span id="total-questions" class="stat-value">0</span>
+          </div>
+
+          <div class="stat">
+            <span class="stat-label">ACIERTOS</span>
+            <span id="correct-answers" class="stat-value">0</span>
+          </div>
+
+          <div class="stat">
+            <span class="stat-label">FALLOS</span>
+            <span id="wrong-answers" class="stat-value">0</span>
+          </div>
+
+          <div class="stat">
+            <span class="stat-label">PRECISIÓN</span>
+            <span id="accuracy" class="stat-value">0%</span>
+          </div>
+        </div>
+
+        <button id="restart-button">NUEVA INVESTIGACIÓN</button>
+      </div>
+    </div>
+  </body>
+</html>

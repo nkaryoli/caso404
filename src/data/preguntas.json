@@ -1,0 +1,2302 @@
+[
+	{
+		"id": 1,
+		"category": "HTML",
+		"question": "¿Qué etiqueta HTML se utiliza para crear un enlace?",
+		"answers": [
+			{
+				"text": "<link>",
+				"correct": false
+			},
+			{
+				"text": "<a>",
+				"correct": true
+			},
+			{
+				"text": "<href>",
+				"correct": false
+			},
+			{
+				"text": "<url>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 2,
+		"category": "HTML",
+		"question": "¿Qué etiqueta representa el título principal de una página?",
+		"answers": [
+			{
+				"text": "<title>",
+				"correct": false
+			},
+			{
+				"text": "<header>",
+				"correct": false
+			},
+			{
+				"text": "<h1>",
+				"correct": true
+			},
+			{
+				"text": "<heading>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 3,
+		"category": "HTML",
+		"question": "¿Qué atributo especifica la dirección de destino de un enlace?",
+		"answers": [
+			{
+				"text": "src",
+				"correct": false
+			},
+			{
+				"text": "href",
+				"correct": true
+			},
+			{
+				"text": "link",
+				"correct": false
+			},
+			{
+				"text": "url",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 4,
+		"category": "HTML",
+		"question": "¿Qué etiqueta se utiliza para crear una lista ordenada?",
+		"answers": [
+			{
+				"text": "<ul>",
+				"correct": false
+			},
+			{
+				"text": "<li>",
+				"correct": false
+			},
+			{
+				"text": "<ol>",
+				"correct": true
+			},
+			{
+				"text": "<list>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 5,
+		"category": "HTML",
+		"question": "¿Qué atributo identifica de forma única un elemento HTML?",
+		"answers": [
+			{
+				"text": "class",
+				"correct": false
+			},
+			{
+				"text": "name",
+				"correct": false
+			},
+			{
+				"text": "id",
+				"correct": true
+			},
+			{
+				"text": "key",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 6,
+		"category": "HTML",
+		"question": "¿Qué etiqueta se utiliza para insertar una imagen?",
+		"answers": [
+			{
+				"text": "<picture>",
+				"correct": false
+			},
+			{
+				"text": "<image>",
+				"correct": false
+			},
+			{
+				"text": "<img>",
+				"correct": true
+			},
+			{
+				"text": "<src>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 7,
+		"category": "HTML",
+		"question": "¿Qué atributo de <img> proporciona un texto alternativo?",
+		"answers": [
+			{
+				"text": "title",
+				"correct": false
+			},
+			{
+				"text": "alt",
+				"correct": true
+			},
+			{
+				"text": "description",
+				"correct": false
+			},
+			{
+				"text": "text",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 8,
+		"category": "HTML",
+		"question": "¿Qué etiqueta contiene normalmente el contenido principal de una página?",
+		"answers": [
+			{
+				"text": "<main>",
+				"correct": true
+			},
+			{
+				"text": "<body-content>",
+				"correct": false
+			},
+			{
+				"text": "<content>",
+				"correct": false
+			},
+			{
+				"text": "<section-main>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 9,
+		"category": "HTML",
+		"question": "¿Qué etiqueta se utiliza para crear un formulario?",
+		"answers": [
+			{
+				"text": "<input>",
+				"correct": false
+			},
+			{
+				"text": "<form>",
+				"correct": true
+			},
+			{
+				"text": "<fieldset>",
+				"correct": false
+			},
+			{
+				"text": "<data>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 10,
+		"category": "HTML",
+		"question": "¿Qué atributo permite indicar que un campo de formulario es obligatorio?",
+		"answers": [
+			{
+				"text": "mandatory",
+				"correct": false
+			},
+			{
+				"text": "required",
+				"correct": true
+			},
+			{
+				"text": "needed",
+				"correct": false
+			},
+			{
+				"text": "validate",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 11,
+		"category": "HTML",
+		"question": "¿Qué etiqueta representa un elemento de una lista?",
+		"answers": [
+			{
+				"text": "<item>",
+				"correct": false
+			},
+			{
+				"text": "<li>",
+				"correct": true
+			},
+			{
+				"text": "<list-item>",
+				"correct": false
+			},
+			{
+				"text": "<element>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 12,
+		"category": "HTML",
+		"question": "¿Qué etiqueta HTML se utiliza para definir un párrafo?",
+		"answers": [
+			{
+				"text": "<paragraph>",
+				"correct": false
+			},
+			{
+				"text": "<text>",
+				"correct": false
+			},
+			{
+				"text": "<p>",
+				"correct": true
+			},
+			{
+				"text": "<para>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 13,
+		"category": "HTML",
+		"question": "¿Qué etiqueta se utiliza para crear un salto de línea?",
+		"answers": [
+			{
+				"text": "<break>",
+				"correct": false
+			},
+			{
+				"text": "<newline>",
+				"correct": false
+			},
+			{
+				"text": "<br>",
+				"correct": true
+			},
+			{
+				"text": "<line>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 14,
+		"category": "HTML",
+		"question": "¿Qué etiqueta se utiliza para crear un botón?",
+		"answers": [
+			{
+				"text": "<button>",
+				"correct": true
+			},
+			{
+				"text": "<click>",
+				"correct": false
+			},
+			{
+				"text": "<btn>",
+				"correct": false
+			},
+			{
+				"text": "<input-button>",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 15,
+		"category": "HTML",
+		"question": "¿Qué atributo permite especificar el tipo de un elemento input?",
+		"answers": [
+			{
+				"text": "kind",
+				"correct": false
+			},
+			{
+				"text": "input-type",
+				"correct": false
+			},
+			{
+				"text": "type",
+				"correct": true
+			},
+			{
+				"text": "mode",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 16,
+		"category": "CSS",
+		"question": "¿Qué propiedad CSS cambia el color del texto?",
+		"answers": [
+			{
+				"text": "text-color",
+				"correct": false
+			},
+			{
+				"text": "font-color",
+				"correct": false
+			},
+			{
+				"text": "color",
+				"correct": true
+			},
+			{
+				"text": "foreground",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 17,
+		"category": "CSS",
+		"question": "¿Qué propiedad cambia el color de fondo?",
+		"answers": [
+			{
+				"text": "background-color",
+				"correct": true
+			},
+			{
+				"text": "bg-color",
+				"correct": false
+			},
+			{
+				"text": "color-background",
+				"correct": false
+			},
+			{
+				"text": "background-style",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 18,
+		"category": "CSS",
+		"question": "¿Qué propiedad permite convertir un elemento en un contenedor Flexbox?",
+		"answers": [
+			{
+				"text": "position: flex",
+				"correct": false
+			},
+			{
+				"text": "display: flex",
+				"correct": true
+			},
+			{
+				"text": "flex: display",
+				"correct": false
+			},
+			{
+				"text": "layout: flex",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 19,
+		"category": "CSS",
+		"question": "¿Qué propiedad modifica el tamaño de la fuente?",
+		"answers": [
+			{
+				"text": "font-size",
+				"correct": true
+			},
+			{
+				"text": "text-size",
+				"correct": false
+			},
+			{
+				"text": "size",
+				"correct": false
+			},
+			{
+				"text": "font-height",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 20,
+		"category": "CSS",
+		"question": "¿Qué símbolo se utiliza para seleccionar un elemento mediante su id?",
+		"answers": [
+			{
+				"text": ".",
+				"correct": false
+			},
+			{
+				"text": "#",
+				"correct": true
+			},
+			{
+				"text": "@",
+				"correct": false
+			},
+			{
+				"text": "$",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 21,
+		"category": "CSS",
+		"question": "¿Qué símbolo se utiliza para seleccionar una clase?",
+		"answers": [
+			{
+				"text": "#",
+				"correct": false
+			},
+			{
+				"text": ".",
+				"correct": true
+			},
+			{
+				"text": "@",
+				"correct": false
+			},
+			{
+				"text": "*",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 22,
+		"category": "CSS",
+		"question": "¿Qué propiedad controla el espacio interior de un elemento?",
+		"answers": [
+			{
+				"text": "margin",
+				"correct": false
+			},
+			{
+				"text": "padding",
+				"correct": true
+			},
+			{
+				"text": "spacing",
+				"correct": false
+			},
+			{
+				"text": "border-spacing",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 23,
+		"category": "CSS",
+		"question": "¿Qué propiedad controla el espacio exterior de un elemento?",
+		"answers": [
+			{
+				"text": "padding",
+				"correct": false
+			},
+			{
+				"text": "margin",
+				"correct": true
+			},
+			{
+				"text": "outside-space",
+				"correct": false
+			},
+			{
+				"text": "gap",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 24,
+		"category": "CSS",
+		"question": "¿Qué propiedad permite redondear las esquinas de un elemento?",
+		"answers": [
+			{
+				"text": "corner-radius",
+				"correct": false
+			},
+			{
+				"text": "border-radius",
+				"correct": true
+			},
+			{
+				"text": "radius",
+				"correct": false
+			},
+			{
+				"text": "round-border",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 25,
+		"category": "CSS",
+		"question": "¿Qué propiedad controla la anchura de un elemento?",
+		"answers": [
+			{
+				"text": "size",
+				"correct": false
+			},
+			{
+				"text": "width",
+				"correct": true
+			},
+			{
+				"text": "length",
+				"correct": false
+			},
+			{
+				"text": "horizontal-size",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 26,
+		"category": "JavaScript",
+		"question": "¿Qué palabra clave permite declarar una variable cuyo valor puede cambiar?",
+		"answers": [
+			{
+				"text": "const",
+				"correct": false
+			},
+			{
+				"text": "let",
+				"correct": true
+			},
+			{
+				"text": "static",
+				"correct": false
+			},
+			{
+				"text": "define",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 27,
+		"category": "JavaScript",
+		"question": "¿Qué palabra clave se utiliza para declarar una constante?",
+		"answers": [
+			{
+				"text": "let",
+				"correct": false
+			},
+			{
+				"text": "var",
+				"correct": false
+			},
+			{
+				"text": "const",
+				"correct": true
+			},
+			{
+				"text": "constant",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 28,
+		"category": "JavaScript",
+		"question": "¿Qué método muestra información en la consola del navegador?",
+		"answers": [
+			{
+				"text": "console.write()",
+				"correct": false
+			},
+			{
+				"text": "console.log()",
+				"correct": true
+			},
+			{
+				"text": "print.console()",
+				"correct": false
+			},
+			{
+				"text": "console.show()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 29,
+		"category": "JavaScript",
+		"question": "¿Qué operador comprueba igualdad estricta?",
+		"answers": [
+			{
+				"text": "==",
+				"correct": false
+			},
+			{
+				"text": "=",
+				"correct": false
+			},
+			{
+				"text": "===",
+				"correct": true
+			},
+			{
+				"text": "!=",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 30,
+		"category": "JavaScript",
+		"question": "¿Qué operador se utiliza para asignar un valor a una variable?",
+		"answers": [
+			{
+				"text": "==",
+				"correct": false
+			},
+			{
+				"text": "=",
+				"correct": true
+			},
+			{
+				"text": "===",
+				"correct": false
+			},
+			{
+				"text": ":=",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 31,
+		"category": "JavaScript",
+		"question": "¿Qué función genera un número aleatorio entre 0 y 1?",
+		"answers": [
+			{
+				"text": "Math.random()",
+				"correct": true
+			},
+			{
+				"text": "Math.number()",
+				"correct": false
+			},
+			{
+				"text": "Random.generate()",
+				"correct": false
+			},
+			{
+				"text": "Math.randomNumber()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 32,
+		"category": "JavaScript",
+		"question": "¿Qué método añade un elemento al final de un array?",
+		"answers": [
+			{
+				"text": "add()",
+				"correct": false
+			},
+			{
+				"text": "push()",
+				"correct": true
+			},
+			{
+				"text": "append()",
+				"correct": false
+			},
+			{
+				"text": "insert()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 33,
+		"category": "JavaScript",
+		"question": "¿Qué propiedad permite conocer la cantidad de elementos de un array?",
+		"answers": [
+			{
+				"text": "size",
+				"correct": false
+			},
+			{
+				"text": "count",
+				"correct": false
+			},
+			{
+				"text": "length",
+				"correct": true
+			},
+			{
+				"text": "items",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 34,
+		"category": "JavaScript",
+		"question": "¿Qué estructura permite ejecutar código dependiendo de una condición?",
+		"answers": [
+			{
+				"text": "if",
+				"correct": true
+			},
+			{
+				"text": "check",
+				"correct": false
+			},
+			{
+				"text": "condition",
+				"correct": false
+			},
+			{
+				"text": "when",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 35,
+		"category": "JavaScript",
+		"question": "¿Qué palabra clave se utiliza para definir una función?",
+		"answers": [
+			{
+				"text": "function",
+				"correct": true
+			},
+			{
+				"text": "method",
+				"correct": false
+			},
+			{
+				"text": "def",
+				"correct": false
+			},
+			{
+				"text": "func",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 36,
+		"category": "JavaScript",
+		"question": "¿Qué método elimina el último elemento de un array?",
+		"answers": [
+			{
+				"text": "remove()",
+				"correct": false
+			},
+			{
+				"text": "delete()",
+				"correct": false
+			},
+			{
+				"text": "pop()",
+				"correct": true
+			},
+			{
+				"text": "lastRemove()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 37,
+		"category": "JavaScript",
+		"question": "¿Qué método elimina el primer elemento de un array?",
+		"answers": [
+			{
+				"text": "shift()",
+				"correct": true
+			},
+			{
+				"text": "removeFirst()",
+				"correct": false
+			},
+			{
+				"text": "popFirst()",
+				"correct": false
+			},
+			{
+				"text": "deleteFirst()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 38,
+		"category": "JavaScript",
+		"question": "¿Qué método añade elementos al principio de un array?",
+		"answers": [
+			{
+				"text": "push()",
+				"correct": false
+			},
+			{
+				"text": "prepend()",
+				"correct": false
+			},
+			{
+				"text": "unshift()",
+				"correct": true
+			},
+			{
+				"text": "addFirst()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 39,
+		"category": "JavaScript",
+		"question": "¿Qué valor representa la ausencia intencionada de un valor?",
+		"answers": [
+			{
+				"text": "undefined",
+				"correct": false
+			},
+			{
+				"text": "null",
+				"correct": true
+			},
+			{
+				"text": "empty",
+				"correct": false
+			},
+			{
+				"text": "voidValue",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 40,
+		"category": "JavaScript",
+		"question": "¿Qué tipo de dato representa true o false?",
+		"answers": [
+			{
+				"text": "String",
+				"correct": false
+			},
+			{
+				"text": "Boolean",
+				"correct": true
+			},
+			{
+				"text": "Binary",
+				"correct": false
+			},
+			{
+				"text": "Logic",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 41,
+		"category": "DOM",
+		"question": "¿Qué significa DOM?",
+		"answers": [
+			{
+				"text": "Document Object Model",
+				"correct": true
+			},
+			{
+				"text": "Data Object Management",
+				"correct": false
+			},
+			{
+				"text": "Document Oriented Model",
+				"correct": false
+			},
+			{
+				"text": "Dynamic Object Management",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 42,
+		"category": "DOM",
+		"question": "¿Qué método permite seleccionar un elemento mediante su id?",
+		"answers": [
+			{
+				"text": "document.getElementById()",
+				"correct": true
+			},
+			{
+				"text": "document.getById()",
+				"correct": false
+			},
+			{
+				"text": "document.selectId()",
+				"correct": false
+			},
+			{
+				"text": "document.findId()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 43,
+		"category": "DOM",
+		"question": "¿Qué método permite seleccionar el primer elemento que coincide con un selector CSS?",
+		"answers": [
+			{
+				"text": "querySelector()",
+				"correct": true
+			},
+			{
+				"text": "selectFirst()",
+				"correct": false
+			},
+			{
+				"text": "getSelector()",
+				"correct": false
+			},
+			{
+				"text": "findSelector()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 44,
+		"category": "DOM",
+		"question": "¿Qué propiedad permite modificar el contenido HTML de un elemento?",
+		"answers": [
+			{
+				"text": "innerHTML",
+				"correct": true
+			},
+			{
+				"text": "htmlContent",
+				"correct": false
+			},
+			{
+				"text": "contentHTML",
+				"correct": false
+			},
+			{
+				"text": "innerContent",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 45,
+		"category": "DOM",
+		"question": "¿Qué propiedad permite modificar únicamente el texto de un elemento?",
+		"answers": [
+			{
+				"text": "innerText",
+				"correct": false
+			},
+			{
+				"text": "textContent",
+				"correct": true
+			},
+			{
+				"text": "textHTML",
+				"correct": false
+			},
+			{
+				"text": "contentText",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 46,
+		"category": "DOM",
+		"question": "¿Qué método permite crear un nuevo elemento HTML desde JavaScript?",
+		"answers": [
+			{
+				"text": "document.createElement()",
+				"correct": true
+			},
+			{
+				"text": "document.newElement()",
+				"correct": false
+			},
+			{
+				"text": "document.addElement()",
+				"correct": false
+			},
+			{
+				"text": "document.createHTML()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 47,
+		"category": "DOM",
+		"question": "¿Qué método permite añadir un evento a un elemento?",
+		"answers": [
+			{
+				"text": "addEventListener()",
+				"correct": true
+			},
+			{
+				"text": "addEvent()",
+				"correct": false
+			},
+			{
+				"text": "listenEvent()",
+				"correct": false
+			},
+			{
+				"text": "onEvent()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 48,
+		"category": "DOM",
+		"question": "¿Qué evento se produce cuando el usuario hace clic sobre un elemento?",
+		"answers": [
+			{
+				"text": "press",
+				"correct": false
+			},
+			{
+				"text": "click",
+				"correct": true
+			},
+			{
+				"text": "select",
+				"correct": false
+			},
+			{
+				"text": "tap",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 49,
+		"category": "DOM",
+		"question": "¿Qué propiedad permite acceder a las clases CSS de un elemento?",
+		"answers": [
+			{
+				"text": "classList",
+				"correct": true
+			},
+			{
+				"text": "cssClasses",
+				"correct": false
+			},
+			{
+				"text": "classes",
+				"correct": false
+			},
+			{
+				"text": "classNames",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 50,
+		"category": "DOM",
+		"question": "¿Qué método permite añadir una clase CSS a un elemento?",
+		"answers": [
+			{
+				"text": "classList.add()",
+				"correct": true
+			},
+			{
+				"text": "class.add()",
+				"correct": false
+			},
+			{
+				"text": "addClass()",
+				"correct": false
+			},
+			{
+				"text": "css.add()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 51,
+		"category": "JSON",
+		"question": "¿Qué significa JSON?",
+		"answers": [
+			{
+				"text": "JavaScript Object Notation",
+				"correct": true
+			},
+			{
+				"text": "Java Standard Object Notation",
+				"correct": false
+			},
+			{
+				"text": "JavaScript Online Network",
+				"correct": false
+			},
+			{
+				"text": "Java Structured Object Network",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 52,
+		"category": "JSON",
+		"question": "¿Qué método convierte una cadena JSON en un objeto JavaScript?",
+		"answers": [
+			{
+				"text": "JSON.parse()",
+				"correct": true
+			},
+			{
+				"text": "JSON.stringify()",
+				"correct": false
+			},
+			{
+				"text": "JSON.convert()",
+				"correct": false
+			},
+			{
+				"text": "JSON.object()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 53,
+		"category": "JSON",
+		"question": "¿Qué método convierte un objeto JavaScript en una cadena JSON?",
+		"answers": [
+			{
+				"text": "JSON.parse()",
+				"correct": false
+			},
+			{
+				"text": "JSON.stringify()",
+				"correct": true
+			},
+			{
+				"text": "JSON.convert()",
+				"correct": false
+			},
+			{
+				"text": "JSON.toStringObject()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 54,
+		"category": "JSON",
+		"question": "¿Qué extensión suele utilizar un archivo JSON?",
+		"answers": [
+			{
+				"text": ".jsn",
+				"correct": false
+			},
+			{
+				"text": ".json",
+				"correct": true
+			},
+			{
+				"text": ".data",
+				"correct": false
+			},
+			{
+				"text": ".object",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 55,
+		"category": "JSON",
+		"question": "¿Cómo se representan normalmente los objetos en JSON?",
+		"answers": [
+			{
+				"text": "Con corchetes []",
+				"correct": false
+			},
+			{
+				"text": "Con llaves {}",
+				"correct": true
+			},
+			{
+				"text": "Con paréntesis ()",
+				"correct": false
+			},
+			{
+				"text": "Con <> ",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 56,
+		"category": "JSON",
+		"question": "¿Cómo se representa normalmente un array en JSON?",
+		"answers": [
+			{
+				"text": "Con llaves {}",
+				"correct": false
+			},
+			{
+				"text": "Con corchetes []",
+				"correct": true
+			},
+			{
+				"text": "Con paréntesis ()",
+				"correct": false
+			},
+			{
+				"text": "Con barras ||",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 57,
+		"category": "JSON",
+		"question": "¿Qué tipo de valor NO puede utilizarse directamente como valor JSON?",
+		"answers": [
+			{
+				"text": "String",
+				"correct": false
+			},
+			{
+				"text": "Boolean",
+				"correct": false
+			},
+			{
+				"text": "Function",
+				"correct": true
+			},
+			{
+				"text": "Number",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 58,
+		"category": "JSON",
+		"question": "¿Cómo se escriben las cadenas de texto en JSON?",
+		"answers": [
+			{
+				"text": "Entre comillas dobles",
+				"correct": true
+			},
+			{
+				"text": "Entre comillas simples obligatoriamente",
+				"correct": false
+			},
+			{
+				"text": "Entre paréntesis",
+				"correct": false
+			},
+			{
+				"text": "Sin ningún tipo de comillas",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 59,
+		"category": "JSON",
+		"question": "¿Puede un objeto JSON contener arrays?",
+		"answers": [
+			{
+				"text": "Sí",
+				"correct": true
+			},
+			{
+				"text": "No",
+				"correct": false
+			},
+			{
+				"text": "Solo si contienen números",
+				"correct": false
+			},
+			{
+				"text": "Solo si contienen strings",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 60,
+		"category": "JSON",
+		"question": "¿Puede un array JSON contener objetos?",
+		"answers": [
+			{
+				"text": "Sí",
+				"correct": true
+			},
+			{
+				"text": "No",
+				"correct": false
+			},
+			{
+				"text": "Solo un objeto",
+				"correct": false
+			},
+			{
+				"text": "Solo si los objetos están vacíos",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 61,
+		"category": "Asincronía",
+		"question": "¿Qué función se utiliza habitualmente para realizar peticiones HTTP desde JavaScript?",
+		"answers": [
+			{
+				"text": "fetch()",
+				"correct": true
+			},
+			{
+				"text": "request()",
+				"correct": false
+			},
+			{
+				"text": "http()",
+				"correct": false
+			},
+			{
+				"text": "server()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 62,
+		"category": "Asincronía",
+		"question": "¿Qué palabra clave permite utilizar await dentro de una función?",
+		"answers": [
+			{
+				"text": "async",
+				"correct": true
+			},
+			{
+				"text": "wait",
+				"correct": false
+			},
+			{
+				"text": "promise",
+				"correct": false
+			},
+			{
+				"text": "defer",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 63,
+		"category": "Asincronía",
+		"question": "¿Qué palabra clave permite esperar el resultado de una Promise?",
+		"answers": [
+			{
+				"text": "async",
+				"correct": false
+			},
+			{
+				"text": "await",
+				"correct": true
+			},
+			{
+				"text": "waitFor",
+				"correct": false
+			},
+			{
+				"text": "promise",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 64,
+		"category": "Asincronía",
+		"question": "¿Qué objeto representa el resultado futuro de una operación asíncrona?",
+		"answers": [
+			{
+				"text": "Future",
+				"correct": false
+			},
+			{
+				"text": "Promise",
+				"correct": true
+			},
+			{
+				"text": "AsyncResult",
+				"correct": false
+			},
+			{
+				"text": "ResponseOnly",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 65,
+		"category": "Asincronía",
+		"question": "¿Qué método de una respuesta fetch permite obtener los datos en formato JSON?",
+		"answers": [
+			{
+				"text": "response.parse()",
+				"correct": false
+			},
+			{
+				"text": "response.json()",
+				"correct": true
+			},
+			{
+				"text": "response.toJSON()",
+				"correct": false
+			},
+			{
+				"text": "response.getJSON()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 66,
+		"category": "Asincronía",
+		"question": "¿Qué método de una Promise se ejecuta cuando la operación termina correctamente?",
+		"answers": [
+			{
+				"text": "catch()",
+				"correct": false
+			},
+			{
+				"text": "then()",
+				"correct": true
+			},
+			{
+				"text": "error()",
+				"correct": false
+			},
+			{
+				"text": "success()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 67,
+		"category": "Asincronía",
+		"question": "¿Qué método permite gestionar un error producido por una Promise?",
+		"answers": [
+			{
+				"text": "error()",
+				"correct": false
+			},
+			{
+				"text": "catch()",
+				"correct": true
+			},
+			{
+				"text": "fail()",
+				"correct": false
+			},
+			{
+				"text": "handle()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 68,
+		"category": "Errores",
+		"question": "¿Qué estructura se utiliza para capturar excepciones en JavaScript?",
+		"answers": [
+			{
+				"text": "try / catch",
+				"correct": true
+			},
+			{
+				"text": "if / error",
+				"correct": false
+			},
+			{
+				"text": "check / catch",
+				"correct": false
+			},
+			{
+				"text": "error / handle",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 69,
+		"category": "Errores",
+		"question": "¿Qué palabra clave permite lanzar manualmente una excepción?",
+		"answers": [
+			{
+				"text": "throw",
+				"correct": true
+			},
+			{
+				"text": "error",
+				"correct": false
+			},
+			{
+				"text": "raise",
+				"correct": false
+			},
+			{
+				"text": "exception",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 70,
+		"category": "Errores",
+		"question": "¿Qué bloque puede ejecutarse independientemente de que haya ocurrido un error?",
+		"answers": [
+			{
+				"text": "always",
+				"correct": false
+			},
+			{
+				"text": "finally",
+				"correct": true
+			},
+			{
+				"text": "default",
+				"correct": false
+			},
+			{
+				"text": "end",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 71,
+		"category": "Web Storage",
+		"question": "¿Qué API permite almacenar datos persistentes en el navegador?",
+		"answers": [
+			{
+				"text": "localStorage",
+				"correct": true
+			},
+			{
+				"text": "browserStorage",
+				"correct": false
+			},
+			{
+				"text": "persistentStorage",
+				"correct": false
+			},
+			{
+				"text": "webData",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 72,
+		"category": "Web Storage",
+		"question": "¿Qué API almacena datos asociados a la sesión actual?",
+		"answers": [
+			{
+				"text": "localStorage",
+				"correct": false
+			},
+			{
+				"text": "sessionStorage",
+				"correct": true
+			},
+			{
+				"text": "sessionData",
+				"correct": false
+			},
+			{
+				"text": "temporaryStorage",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 73,
+		"category": "Web Storage",
+		"question": "¿Qué método permite guardar un valor en localStorage?",
+		"answers": [
+			{
+				"text": "saveItem()",
+				"correct": false
+			},
+			{
+				"text": "setItem()",
+				"correct": true
+			},
+			{
+				"text": "addItem()",
+				"correct": false
+			},
+			{
+				"text": "store()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 74,
+		"category": "Web Storage",
+		"question": "¿Qué método permite recuperar un valor de localStorage?",
+		"answers": [
+			{
+				"text": "getItem()",
+				"correct": true
+			},
+			{
+				"text": "readItem()",
+				"correct": false
+			},
+			{
+				"text": "loadItem()",
+				"correct": false
+			},
+			{
+				"text": "retrieve()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 75,
+		"category": "Web Storage",
+		"question": "¿Qué método elimina un elemento concreto de localStorage?",
+		"answers": [
+			{
+				"text": "deleteItem()",
+				"correct": false
+			},
+			{
+				"text": "removeItem()",
+				"correct": true
+			},
+			{
+				"text": "erase()",
+				"correct": false
+			},
+			{
+				"text": "clearItem()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 76,
+		"category": "HTTP",
+		"question": "¿Qué código HTTP indica normalmente que una petición se ha realizado correctamente?",
+		"answers": [
+			{
+				"text": "200",
+				"correct": true
+			},
+			{
+				"text": "301",
+				"correct": false
+			},
+			{
+				"text": "404",
+				"correct": false
+			},
+			{
+				"text": "500",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 77,
+		"category": "HTTP",
+		"question": "¿Qué código HTTP indica que un recurso no ha sido encontrado?",
+		"answers": [
+			{
+				"text": "200",
+				"correct": false
+			},
+			{
+				"text": "301",
+				"correct": false
+			},
+			{
+				"text": "404",
+				"correct": true
+			},
+			{
+				"text": "500",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 78,
+		"category": "HTTP",
+		"question": "¿Qué código HTTP representa normalmente un error interno del servidor?",
+		"answers": [
+			{
+				"text": "400",
+				"correct": false
+			},
+			{
+				"text": "403",
+				"correct": false
+			},
+			{
+				"text": "404",
+				"correct": false
+			},
+			{
+				"text": "500",
+				"correct": true
+			}
+		]
+	},
+	{
+		"id": 79,
+		"category": "HTTP",
+		"question": "¿Qué método HTTP se utiliza normalmente para obtener información?",
+		"answers": [
+			{
+				"text": "GET",
+				"correct": true
+			},
+			{
+				"text": "POST",
+				"correct": false
+			},
+			{
+				"text": "SEND",
+				"correct": false
+			},
+			{
+				"text": "FETCH",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 80,
+		"category": "HTTP",
+		"question": "¿Qué método HTTP se utiliza habitualmente para enviar datos al servidor?",
+		"answers": [
+			{
+				"text": "GET",
+				"correct": false
+			},
+			{
+				"text": "POST",
+				"correct": true
+			},
+			{
+				"text": "SEND",
+				"correct": false
+			},
+			{
+				"text": "PUSH",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 81,
+		"category": "HTTP",
+		"question": "¿Qué código HTTP indica que el cliente no tiene permisos para acceder al recurso?",
+		"answers": [
+			{
+				"text": "401",
+				"correct": false
+			},
+			{
+				"text": "403",
+				"correct": true
+			},
+			{
+				"text": "404",
+				"correct": false
+			},
+			{
+				"text": "500",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 82,
+		"category": "HTTP",
+		"question": "¿Qué protocolo seguro se utiliza habitualmente para acceder a sitios web mediante HTTPS?",
+		"answers": [
+			{
+				"text": "HTTP/2",
+				"correct": false
+			},
+			{
+				"text": "TLS",
+				"correct": true
+			},
+			{
+				"text": "FTP",
+				"correct": false
+			},
+			{
+				"text": "SSH",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 83,
+		"category": "Web",
+		"question": "¿Qué significa URL?",
+		"answers": [
+			{
+				"text": "Uniform Resource Locator",
+				"correct": true
+			},
+			{
+				"text": "Universal Resource Link",
+				"correct": false
+			},
+			{
+				"text": "Uniform Reference Location",
+				"correct": false
+			},
+			{
+				"text": "Universal Routing Locator",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 84,
+		"category": "Web",
+		"question": "¿Qué lenguaje se ejecuta principalmente en el navegador para añadir interactividad?",
+		"answers": [
+			{
+				"text": "PHP",
+				"correct": false
+			},
+			{
+				"text": "Python",
+				"correct": false
+			},
+			{
+				"text": "JavaScript",
+				"correct": true
+			},
+			{
+				"text": "SQL",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 85,
+		"category": "Web",
+		"question": "¿Qué tecnología define principalmente la estructura de una página web?",
+		"answers": [
+			{
+				"text": "CSS",
+				"correct": false
+			},
+			{
+				"text": "HTML",
+				"correct": true
+			},
+			{
+				"text": "JavaScript",
+				"correct": false
+			},
+			{
+				"text": "SQL",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 86,
+		"category": "Git",
+		"question": "¿Qué comando muestra el estado actual del repositorio Git?",
+		"answers": [
+			{
+				"text": "git check",
+				"correct": false
+			},
+			{
+				"text": "git status",
+				"correct": true
+			},
+			{
+				"text": "git state",
+				"correct": false
+			},
+			{
+				"text": "git info",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 87,
+		"category": "Git",
+		"question": "¿Qué comando crea un nuevo repositorio Git?",
+		"answers": [
+			{
+				"text": "git create",
+				"correct": false
+			},
+			{
+				"text": "git init",
+				"correct": true
+			},
+			{
+				"text": "git new",
+				"correct": false
+			},
+			{
+				"text": "git start",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 88,
+		"category": "Git",
+		"question": "¿Qué comando prepara archivos para el siguiente commit?",
+		"answers": [
+			{
+				"text": "git prepare",
+				"correct": false
+			},
+			{
+				"text": "git add",
+				"correct": true
+			},
+			{
+				"text": "git stage-file",
+				"correct": false
+			},
+			{
+				"text": "git commit-add",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 89,
+		"category": "Git",
+		"question": "¿Qué comando crea un commit?",
+		"answers": [
+			{
+				"text": "git save",
+				"correct": false
+			},
+			{
+				"text": "git commit",
+				"correct": true
+			},
+			{
+				"text": "git record",
+				"correct": false
+			},
+			{
+				"text": "git snapshot",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 90,
+		"category": "Git",
+		"question": "¿Qué comando descarga cambios de un repositorio remoto y los integra en la rama actual?",
+		"answers": [
+			{
+				"text": "git download",
+				"correct": false
+			},
+			{
+				"text": "git pull",
+				"correct": true
+			},
+			{
+				"text": "git receive",
+				"correct": false
+			},
+			{
+				"text": "git update",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 91,
+		"category": "JavaScript",
+		"question": "¿Qué operador lógico representa AND?",
+		"answers": [
+			{
+				"text": "||",
+				"correct": false
+			},
+			{
+				"text": "&&",
+				"correct": true
+			},
+			{
+				"text": "!!",
+				"correct": false
+			},
+			{
+				"text": "AND",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 92,
+		"category": "JavaScript",
+		"question": "¿Qué operador lógico representa OR?",
+		"answers": [
+			{
+				"text": "&&",
+				"correct": false
+			},
+			{
+				"text": "||",
+				"correct": true
+			},
+			{
+				"text": "OR",
+				"correct": false
+			},
+			{
+				"text": "??=",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 93,
+		"category": "JavaScript",
+		"question": "¿Qué operador lógico representa NOT?",
+		"answers": [
+			{
+				"text": "!",
+				"correct": true
+			},
+			{
+				"text": "not",
+				"correct": false
+			},
+			{
+				"text": "!!",
+				"correct": false
+			},
+			{
+				"text": "~",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 94,
+		"category": "JavaScript",
+		"question": "¿Qué estructura permite seleccionar entre varios casos posibles?",
+		"answers": [
+			{
+				"text": "choose",
+				"correct": false
+			},
+			{
+				"text": "switch",
+				"correct": true
+			},
+			{
+				"text": "select",
+				"correct": false
+			},
+			{
+				"text": "case-if",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 95,
+		"category": "JavaScript",
+		"question": "¿Qué palabra clave detiene la ejecución de un bucle?",
+		"answers": [
+			{
+				"text": "stop",
+				"correct": false
+			},
+			{
+				"text": "exit",
+				"correct": false
+			},
+			{
+				"text": "break",
+				"correct": true
+			},
+			{
+				"text": "end",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 96,
+		"category": "JavaScript",
+		"question": "¿Qué palabra clave permite saltar a la siguiente iteración de un bucle?",
+		"answers": [
+			{
+				"text": "next",
+				"correct": false
+			},
+			{
+				"text": "continue",
+				"correct": true
+			},
+			{
+				"text": "skip",
+				"correct": false
+			},
+			{
+				"text": "jump",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 97,
+		"category": "JavaScript",
+		"question": "¿Qué método devuelve un nuevo array con los elementos que cumplen una condición?",
+		"answers": [
+			{
+				"text": "filter()",
+				"correct": true
+			},
+			{
+				"text": "select()",
+				"correct": false
+			},
+			{
+				"text": "findAll()",
+				"correct": false
+			},
+			{
+				"text": "where()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 98,
+		"category": "JavaScript",
+		"question": "¿Qué método ejecuta una función sobre cada elemento de un array?",
+		"answers": [
+			{
+				"text": "forEach()",
+				"correct": true
+			},
+			{
+				"text": "eachItem()",
+				"correct": false
+			},
+			{
+				"text": "iterate()",
+				"correct": false
+			},
+			{
+				"text": "loop()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 99,
+		"category": "JavaScript",
+		"question": "¿Qué método crea un nuevo array aplicando una función a cada elemento?",
+		"answers": [
+			{
+				"text": "map()",
+				"correct": true
+			},
+			{
+				"text": "transformArray()",
+				"correct": false
+			},
+			{
+				"text": "change()",
+				"correct": false
+			},
+			{
+				"text": "convert()",
+				"correct": false
+			}
+		]
+	},
+	{
+		"id": 100,
+		"category": "JavaScript",
+		"question": "¿Qué método devuelve el primer elemento de un array que cumple una condición?",
+		"answers": [
+			{
+				"text": "filter()",
+				"correct": false
+			},
+			{
+				"text": "find()",
+				"correct": true
+			},
+			{
+				"text": "search()",
+				"correct": false
+			},
+			{
+				"text": "first()",
+				"correct": false
+			}
+		]
+	}
+]
