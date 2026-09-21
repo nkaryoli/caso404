@@ -1,6 +1,6 @@
 import { shuffleArray } from "./utils.js";
 
-let qNumber= 10;
+let qNumber= 2;
 
 let onShowQuestionCallback = null;
 let onGameOverCallback = null;
