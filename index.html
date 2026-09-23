@@ -9,22 +9,20 @@
   </head>
 
   <body>
-    <header class="navbar">
+    <header class="navbar hidden">
       <h1>CASO 404</h1>
-      <div class="">
-        <div id="player-info" class="player-info">
-          <!-- Aquí aparecerá el nombre del jugador -->
-        </div>
+      <div id="player-info" class="player-info">
+        <span id="player-name" class="player-name">-</span>
+        <img src="./src/img/user.png" alt="" />
       </div>
-      <button id="logout-button" class="logout-button hidden">
-        Cerrar sesion
-      </button>
     </header>
-
+    <button id="logout-button" class="logout-button">
+      Cerrar sesion
+    </button>
     <main>
-      <section id="home" class="screen hidden">
+      <section id="home" class="screen ">
         <div class="intro">
-          <p class="case-number">EXPEDIENTE #404</p>
+          <!-- <p class="case-number">EXPEDIENTE #404</p> -->
           <h2>EL SERVIDOR HA DESAPARECIDO</h2>
           <p>
             Un servidor crítico ha desaparecido de la red. Necesitamos un
@@ -47,32 +45,40 @@
         </div>
       </section>
 
-      <section id="menu" class="screen menu">
-        <button data-category="javaScript" class="menu-card">JavaScript</button>
-        <button data-category="html" class="menu-card">HTML</button>
-        <button data-category="css" class="menu-card">CSS</button>
-        <button data-category="dom" class="menu-card">DOM</button>
-        <button data-category="json" class="menu-card">JSON</button>
-        <button data-category="asincronia" class="menu-card">Asincronía</button>
-        <button data-category="errores" class="menu-card">Errores</button>
-        <button data-category="WebStorage" class="menu-card">Web Storage</button>
-        <button data-category="http" class="menu-card">HTTP</button>
-        <button data-category="web" class="menu-card">Web</button>
-        <button data-category="git" class="menu-card">Git</button>
+      <!-- SECCIÓN MENU DEL JUEGO -->
+      <section id="menu" class="screen menu hidden">
+        <h2>Hola <span id="nombre-jugador">-</span></h2>
+        <p>Elige una categoría..</p>
+        <div class="categorias">
+          <div class="categoria" id="general">
+            <img src="./src/img/general.png" alt="" class="foto-categoria" />
+            <h3>General</h3>
+          </div>
+          <div class="categoria" id="musica">
+            <img src="./src/img/musica.png" alt="" class="foto-categoria" />
+            <h3>Música</h3>
+          </div>
+          <div class="categoria" id="peliculas">
+            <img src="./src/img/peliculas.png" alt="" class="foto-categoria" />
+            <h3>Películas</h3>
+          </div>
+          <div class="categoria" id="deportes">
+            <img src="./src/img/deportes.png" alt="" class="foto-categoria" />
+            <h3>Deportes</h3>
+          </div>
+          <div class="categoria" id="programacion">
+            <img src="./src/img/programacion.png" alt="" class="foto-categoria" />
+            <h3>Programación</h3>
+          </div>
+          <div class="categoria" id="juegos">
+            <img src="./src/img/juegos.png" alt="" class="foto-categoria" />
+            <h3>Video Juegos</h3>
+          </div>
+        </div>
       </section>
 
       <section id="game" class="screen hidden">
         <div class="game-container">
-          <div class="case-progress" aria-label="Progreso de la partida">
-            <div class="progress-track" aria-hidden="true">
-              <span
-                id="progress-fill"
-                class="progress-fill"
-                style="width: 0%"
-              ></span>
-            </div>
-            <p id="progress-text" class="progress-text">PROGRESO 0 / 0</p>
-          </div>
 
           <div id="questions-list" class="questions-list">
             <!-- Las preguntas se crearán aquí con JavaScript -->

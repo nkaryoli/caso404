@@ -1,0 +1,41 @@
+/* PRIMARY BUTTONS */
+#start-button,
+.check-button,
+#restart-button {
+  margin-top: 10px;
+  padding: 12px;
+  background: var(--btn-primary-gradient);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(3, 147, 163, 0.4);
+  transition: all 0.3s ease;
+  font-family: inherit;
+  box-shadow: 3px 3px 5px #2a2929;
+
+}
+
+#start-button:hover:not(:disabled),
+.check-button:hover:not(:disabled),
+#restart-button:hover {
+  background: var(--btn-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(3, 147, 163, 0.6);
+}
+
+#start-button:disabled,
+.check-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.error-message {
+  color: var(--error);
+  font-size: 13px;
+  min-height: 20px;
+}

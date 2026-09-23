@@ -1,6 +1,6 @@
 import { shuffleArray } from "./utils.js";
 
-let qNumber= 2;
+let qNumber = 2;
 
 let onShowQuestionCallback = null;
 let onGameOverCallback = null;
@@ -72,8 +72,12 @@ export const showQuestion = () => {
   questionCard.classList.add("question-card");
 
   questionCard.innerHTML = `
-        <p class="question-number"> PREGUNTA ${state.currentQuestionIndex + 1} </p>
-        <p class="question-category"> ${question.category} </p>
+        <div class="question-counter">
+          <span class="question-number">${state.currentQuestionIndex + 1} </span>
+          / 
+          <span>${state.gameQuestions.length}</span>
+        </div>
+        <!--<p class="question-category"> ${question.category} </p>-->
         <h2 class="question-text"> ${question.question} </h2>
         <div class="answers-container"></div>
     `;
