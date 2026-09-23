@@ -1,6 +1,6 @@
 import { shuffleArray } from "./utils.js";
 
-let qNumber = 2;
+let qNumber = 5;
 
 let onShowQuestionCallback = null;
 let onGameOverCallback = null;
@@ -96,8 +96,9 @@ export const showQuestion = () => {
 
   question.answers.forEach((answer, index) => {
     const answerButton = document.createElement("button");
+    const options = ["a", "b", "c", "d"];
 
-    answerButton.textContent = answer.text;
+    answerButton.innerHTML = `<span class="option-icon">${options[index]}</span> <p class="optcion">${answer.text}</p>`;
     answerButton.classList.add("answer");
     answerButton.dataset.index = index;
     answerButton.addEventListener("click", () =>

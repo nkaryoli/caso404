@@ -11,9 +11,11 @@ const logoutButton = document.querySelector("#logout-button");
 const startButton = document.querySelector("#start-button");
 const errorMessage = document.querySelector("#error-message");
 const playerInfo = document.querySelector("#player-info");
+const playerName = document.querySelector("#player-name");
 
 const homeScreen = document.querySelector("#home");
 const gameScreen = document.querySelector("#game");
+const navbar = document.querySelector("#navbar");
 
 // Game DOM
 const questionsList = document.querySelector("#questions-list");
@@ -109,12 +111,13 @@ const handleGameOver = (stats) => {
 
 const login = (username) => {
   localStorage.setItem("username", username);
-  playerInfo.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg> Jugador: <span>${username}</span>`;
+  playerName.innerHTML = ` Jugador: ${username}`;
   errorMessage.textContent = "";
 
   logoutButton.classList.remove("hidden");
   homeScreen.classList.add("hidden");
   gameScreen.classList.remove("hidden");
+  navbar.classList.remove("hidden");
 };
 
 export const logout = () => {
@@ -123,9 +126,10 @@ export const logout = () => {
   gameScreen.classList.add("hidden");
   homeScreen.classList.remove("hidden");
   logoutButton.classList.add("hidden");
+  navbar.classList.add("hidden");
 
   usernameInput.value = "";
-  playerInfo.innerHTML = "";
+  // playerInfo.innerHTML = "";
 
   questionsList.innerHTML = "";
   globalGameMessage.textContent = "";

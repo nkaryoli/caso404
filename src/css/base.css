@@ -34,33 +34,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid red; */
 }
 
 /* MAIN CONTAINER (MOBILE APP STYLE) */
 main {
   width: 100%;
-  max-width: 800px;
-  height: 80vh;
-  padding: 20px;
-  /* background: linear-gradient(#6051e0, #ad79b9); */
-  position: relative;
+  max-width: 1000px;
+  /* position: relative; */
   z-index: 1;
-  /* overflow-y: auto; */
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hidden {
   display: none !important;
-}
-
-/* SCREENS */
-.screen {
-  /* min-height: calc(100vh - 70px); */
-  /* padding: 90px 20px 24px; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
 }
 
 .logout-button {
@@ -74,8 +64,8 @@ main {
   cursor: pointer;
   transition: all 0.3s;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 85px;
+  right: 15px;
 }
 
 .logout-button:hover {
