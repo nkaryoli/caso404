@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caso 404 | Categorías</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>CASO 404</h1>
+      <div class="player-info">
+        <span id="player-name" class="player-name"></span>
+        <img src="../img/user.png" alt="Avatar del investigador" />
+      </div>
+    </nav>
+    <div class="navbar-action-buttons">
+      <p></p>
+      <button id="logout-button" class="logout-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-log-out preview-icon">
+          <path d="m16 17 5-5-5-5" />
+          <path d="M21 12H9" />
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="menu">
+      <h2>Hola <span id="nombre-jugador"></span></h2>
+      <p>Elige una categoría</p>
+      <div class="categorias">
+        <a class="categoria" href="./game.html?category=all">
+          <img src="../img/general.png" alt="" class="foto-categoria" />
+          <h3>General</h3>
+        </a>
+        <a class="categoria" href="../pages/game.html?category=HTML">
+          <img src="../img/musica.png" alt="" class="foto-categoria" />
+          <h3>HTML</h3>
+        </a>
+        <a class="categoria" href="./game.html?category=CSS">
+          <img src="../img/peliculas.png" alt="" class="foto-categoria" />
+          <h3>CSS</h3>
+        </a>
+        <a class="categoria" href="./game.html?category=JavaScript">
+          <img src="../img/programacion.png" alt="" class="foto-categoria" />
+          <h3>JavaScript</h3>
+        </a>
+        <a class="categoria" href="./game.html?category=DOM">
+          <img src="../img/juegos.png" alt="" class="foto-categoria" />
+          <h3>DOM</h3>
+        </a>
+        <a class="categoria" href="./game.html?category=Git">
+          <img src="../img/deportes.png" alt="" class="foto-categoria" />
+          <h3>Git</h3>
+        </a>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="../js/menu.js"></script>
+</body>
+
+</html>

@@ -74,7 +74,7 @@
 		"question": "¿Qué etiqueta se utiliza para crear una lista ordenada?",
 		"answers": [
 			{
-				"text": "<ul>",
+				"text": "'<ul>'",
 				"correct": false
 			},
 			{

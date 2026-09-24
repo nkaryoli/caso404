@@ -1,11 +1,12 @@
 /* NAVBAR */
-.navbar {
+header {
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  /* transform: translateX(-50%); */
-  width: 100%;
-  /* max-width: 680px; */
+}
+
+.navbar {
   height: 70px;
   padding: 0 20px;
 
@@ -13,9 +14,9 @@
   align-items: center;
   justify-content: space-between;
 
-  background: linear-gradient(#6b5ae4, var(--accent));
-  color: white;
-  box-shadow: 3px 3px 5px #2a2929;
+  background: var(--nav-gradient);
+  color: var(--text-main);
+  box-shadow: 3px 3px 5px rgba(var(--shadow-dark-rgb), 0.5);
   z-index: 100;
 }
 
@@ -31,8 +32,7 @@
 }
 
 .player-info .player-name {
-  background-color: #3f40ae;
-  /* width: 90px; */
+  background-color: var(--surface-purple);
   display: block;
   padding: 5px 15px;
   border-radius: 30px 0 0 30px;
@@ -42,9 +42,45 @@
 }
 
 .player-info img {
-  background-color: #3f40ae;
+  background-color: var(--surface-purple);
   width: 40px;
   border-radius: 50%;
-  border: 2px solid #ffe43a;
+  border: 2px solid var(--contrast);
   z-index: 2;
+}
+
+.navbar-action-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.back-button {
+  color: var(--text-main);
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+
+.logout-button {
+  padding: 8px 12px;
+  background-color: transparent;
+  color: var(--text-menu);
+  border: 1px solid rgba(255, 255, 255, 0.537);
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logout-button:hover {
+  color: var(--error);
+  border-color: var(--error);
 }

@@ -1,6 +1,6 @@
 import { shuffleArray } from "./utils.js";
 
-let qNumber = 5;
+let qNumber = 8;
 
 let onShowQuestionCallback = null;
 let onGameOverCallback = null;
@@ -22,7 +22,7 @@ const state = {
 };
 
 // ------------------- Preparation ---------------------------------------
-export const loadQuestions = async () => {
+export const loadQuestions = async (category = "all") => {
   try {
     const questionsUrl = new URL("../data/preguntas.json", import.meta.url);
     const response = await fetch(questionsUrl);
@@ -31,14 +31,19 @@ export const loadQuestions = async () => {
       throw new Error("No se han podido cargar las preguntas");
     }
 
-    state.allQuestions = await response.json();
+    const questions = await response.json();
+    state.allQuestions = category === "all"
+      ? questions
+      : questions.filter((item) => item.category === category);
 
     console.log("Preguntas cargadas:", state.allQuestions);
     console.log("Número de preguntas:", state.allQuestions.length);
 
     prepareGame();
+    return state.gameQuestions.length > 0;
   } catch (error) {
     console.log(error.message);
+    return false;
   }
 };
 

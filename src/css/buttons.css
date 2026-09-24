@@ -3,9 +3,9 @@
 .check-button,
 #restart-button {
   margin-top: 10px;
-  padding: 12px;
+  padding: 14px;
   background: var(--btn-primary-gradient);
-  color: #fff;
+  color: var(--text-main);
   border: none;
   border-radius: 50px;
   font-size: 15px;
@@ -14,7 +14,7 @@
   box-shadow: 0 4px 15px rgba(3, 147, 163, 0.4);
   transition: all 0.3s ease;
   font-family: inherit;
-  box-shadow: 3px 3px 5px #2a2929;
+  box-shadow: 3px 3px 5px var(--shadow-dark);
 
 }
 

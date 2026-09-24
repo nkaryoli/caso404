@@ -9,29 +9,16 @@
   </head>
 
   <body>
-    <header id="navbar" class="navbar hidden">
-      <h1>CASO 404</h1>
-      <div id="player-info" class="player-info">
-        <span id="player-name" class="player-name">-</span>
-        <img src="./src/img/user.png" alt="" />
-      </div>
-      <button id="logout-button" class="logout-button">
-        Cerrar sesion
-      </button>
-    </header>
     <main>
-      <section id="home" class="">
+      <section id="home">
         <div class="intro">
-          <!-- <p class="case-number">EXPEDIENTE #404</p> -->
           <h2>EL SERVIDOR HA DESAPARECIDO</h2>
           <p>
             Un servidor crítico ha desaparecido de la red. Necesitamos un
-            investigador capaz de resolver las pruebas y encontrar las pistas
-            necesarias para localizarlo.
+            investigador capaz de resolver las pruebas y localizarlo.
           </p>
           <p>Introduce tu nombre de investigador para comenzar.</p>
-
-          <div class="username-form">
+          <form id="username-form" class="username-form">
             <label for="username">Nombre de investigador</label>
             <input
               type="text"
@@ -39,93 +26,14 @@
               placeholder="Introduce tu nombre..."
               autocomplete="off"
             />
-            <button id="start-button">INICIAR INVESTIGACIÓN</button>
-            <p id="error-message" class="error-message"></p>
-          </div>
-        </div>
-      </section>
-
-      <!-- SECCIÓN MENU DEL JUEGO -->
-      <section id="menu" class="menu hidden">
-        <h2>Hola <span id="nombre-jugador">-</span></h2>
-        <p>Elige una categoría..</p>
-        <div class="categorias">
-          <div class="categoria" id="general">
-            <img src="./src/img/general.png" alt="" class="foto-categoria" />
-            <h3>General</h3>
-          </div>
-          <div class="categoria" id="musica">
-            <img src="./src/img/musica.png" alt="" class="foto-categoria" />
-            <h3>Música</h3>
-          </div>
-          <div class="categoria" id="peliculas">
-            <img src="./src/img/peliculas.png" alt="" class="foto-categoria" />
-            <h3>Películas</h3>
-          </div>
-          <div class="categoria" id="deportes">
-            <img src="./src/img/deportes.png" alt="" class="foto-categoria" />
-            <h3>Deportes</h3>
-          </div>
-          <div class="categoria" id="programacion">
-            <img src="./src/img/programacion.png" alt="" class="foto-categoria" />
-            <h3>Programación</h3>
-          </div>
-          <div class="categoria" id="juegos">
-            <img src="./src/img/juegos.png" alt="" class="foto-categoria" />
-            <h3>Video Juegos</h3>
-          </div>
-        </div>
-      </section>
-
-      <section id="game" class="game-container hidden">
-        <!-- <div class="game-container"> -->
-
-          <div id="questions-list" class="questions-list">
-            <!-- Las preguntas se crearán aquí con JavaScript -->
-          </div>
-
-          <div class="global-actions">
-            <button id="global-check-button" class="check-button hidden">
-              COMPROBAR RESPUESTA
+            <button id="start-button" type="submit">
+              INICIAR INVESTIGACIÓN
             </button>
-          </div>
-        <!-- </div> -->
+            <p id="error-message" class="error-message"></p>
+          </form>
+        </div>
       </section>
     </main>
-    <p id="global-game-message" class="game-message"></p>
     <script type="module" src="./src/js/app.js"></script>
-    <div id="results-modal" class="modal hidden">
-      <div class="modal-content">
-        <p class="modal-case">EXPEDIENTE #404</p>
-
-        <h2 id="results-title">EXPEDIENTE CERRADO</h2>
-
-        <p id="results-subtitle"></p>
-
-        <div class="statistics">
-          <div class="stat">
-            <span class="stat-label">PREGUNTAS</span>
-            <span id="total-questions" class="stat-value">0</span>
-          </div>
-
-          <div class="stat">
-            <span class="stat-label">ACIERTOS</span>
-            <span id="correct-answers" class="stat-value">0</span>
-          </div>
-
-          <div class="stat">
-            <span class="stat-label">FALLOS</span>
-            <span id="wrong-answers" class="stat-value">0</span>
-          </div>
-
-          <div class="stat">
-            <span class="stat-label">PRECISIÓN</span>
-            <span id="accuracy" class="stat-value">0%</span>
-          </div>
-        </div>
-
-        <button id="restart-button">NUEVA INVESTIGACIÓN</button>
-      </div>
-    </div>
   </body>
 </html>
