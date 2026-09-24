@@ -3,51 +3,71 @@
   color: var(--text-main);
   text-align: center;
 }
-.categorias {
+
+.menu h2 {
+  font-size: 50px;
+}
+
+#player-greeting {
+  color: var(--accent);
+}
+
+.menu p {
+  font-size: 30px;
+  margin: 20px 0 100px;
+}
+
+.categories {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 170px 170px 170px;
-  gap: 40px;
+  grid-template-columns: 230px 230px 230px;
+  gap: 60px;
   justify-content: space-evenly;
 }
-.categoria {
-  background-color: var(--surface-category);
-  width: 170px;
-  height: 90px;
+
+.category-card {
+  background: linear-gradient( var(--surface-category), var(--cyan-dark));
+  width: 100%;
+  height: 130px;
   border-radius: 15px;
   color: var(--text-main);
   position: relative;
   display: flex;
   align-items: end;
-  padding: 20px;
+  padding: 30px;
   justify-content: center;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: 3px 3px 5px var(--shadow-dark);
+
 }
-.categoria .foto-categoria {
-  width: 80px;
+
+.category-card .category-image {
+  width: 120px;
   position: absolute;
   left: 50%;
-  top: -35px;
+  top: -55px;
   transform: translateX(-50%);
   transition: 0.3s;
 }
-.categoria:hover {
-  box-shadow: 0 0 15px rgba(var(--contrast-rgb), 0.7);
+
+.category-card:hover {
+  box-shadow: 0 0 25px rgba(var(--contrast-rgb), 0.8);
 }
-.categoria:hover .foto-categoria {
+
+.category-card:hover .category-image {
   scale: 1.2;
 }
 
 @media screen and (max-width: 767px) {
-  .categorias {
+  .categories {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 32px;
     padding: 0 20px;
   }
 
-  .categoria {
+  .category-card {
     width: min(100%, 280px);
   }
 }

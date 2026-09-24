@@ -13,6 +13,5 @@ const startInvestigation = (event) => {
   localStorage.setItem("username", username);
   window.location.href = "./src/pages/menu.html";
 };
-document
-  .querySelector("#username-form")
-  .addEventListener("submit", startInvestigation);
+
+document.querySelector("#username-form").addEventListener("submit", startInvestigation);

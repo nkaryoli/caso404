@@ -8,6 +8,8 @@
   --surface-gradient: linear-gradient(#6051e0, #ad79b9);
   --surface-category: #60439d;
   --surface-purple: #3f40ae;
+  --surface-purple-rgb: 63, 64, 174;
+
   --nav-gradient: linear-gradient(#6b5ae4, var(--cyan-bright));
   --cyan-dark: #0393a3;
   --cyan-bright: #06b2c4;
@@ -52,8 +54,6 @@
 body {
   min-height: 100vh;
   background: var(--bg-page);
-  /* background-image: var(--bg-radial); */
-  /* background-attachment: fixed; */
   color: var(--text-main);
   font-family: "Outfit", sans-serif;
   overflow-x: hidden;
@@ -62,16 +62,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
-/* MAIN CONTAINER (MOBILE APP STYLE) */
+/* MAIN CONTAINER */
 main {
   width: 100%;
   max-width: 1200px;
-  /* position: relative; */
   z-index: 1;
-  /* border: 1px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +77,6 @@ main {
 .hidden {
   display: none !important;
 }
-
 
 /* ANIMACIONES */
 @keyframes slideUpFade {
@@ -160,9 +156,4 @@ main {
     right: 12px;
     width: min(220px, calc(100vw - 24px));
   }
-
-  /* .logout-button {
-    position: relative;
-    margin-top: 140px;
-  } */
 }

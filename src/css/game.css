@@ -84,7 +84,6 @@
   border-color: var(--contrast);
   scale: 1.05;
   box-shadow: 0 8px 24px rgba(var(--contrast-rgb), 0.45);
-  /* color: var(--text-main); */
 }
 
 .answer.selected {
@@ -127,7 +126,7 @@
   cursor: not-allowed;
 }
 
-/* FEEDBACK Y ESTADOS */
+/* FEEDBACK AND STATES */
 .question-card.correct {
   border-color: rgba(var(--accent-rgb), 0.3);
   box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.2);
@@ -175,7 +174,6 @@
   left: 50vw;
   transform: translateX(-50%);
 }
-
 
 @media screen and (max-width: 767px) {
   .questions-list {

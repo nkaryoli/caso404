@@ -1,6 +1,6 @@
 import { shuffleArray } from "./utils.js";
 
-let qNumber = 8;
+let questionCount = 1;
 
 let onShowQuestionCallback = null;
 let onGameOverCallback = null;
@@ -24,20 +24,21 @@ const state = {
 // ------------------- Preparation ---------------------------------------
 export const loadQuestions = async (category = "all") => {
   try {
-    const questionsUrl = new URL("../data/preguntas.json", import.meta.url);
+    const questionsUrl = new URL("../data/questions.json", import.meta.url);
     const response = await fetch(questionsUrl);
 
     if (!response.ok) {
-      throw new Error("No se han podido cargar las preguntas");
+      throw new Error("Questions could not be loaded");
     }
 
     const questions = await response.json();
-    state.allQuestions = category === "all"
-      ? questions
-      : questions.filter((item) => item.category === category);
+    state.allQuestions =
+      category === "all"
+        ? questions
+        : questions.filter((item) => item.category === category);
 
-    console.log("Preguntas cargadas:", state.allQuestions);
-    console.log("Número de preguntas:", state.allQuestions.length);
+    console.log("Loaded questions:", state.allQuestions);
+    console.log("Question count:", state.allQuestions.length);
 
     prepareGame();
     return state.gameQuestions.length > 0;
@@ -49,7 +50,7 @@ export const loadQuestions = async (category = "all") => {
 
 const prepareGame = () => {
   state.gameQuestions = shuffleArray(state.allQuestions)
-    .slice(0, qNumber)
+    .slice(0, questionCount)
     .map((question) => {
       return {
         ...question,
@@ -60,7 +61,7 @@ const prepareGame = () => {
   state.currentQuestionIndex = 0;
   state.correctAnswersCount = 0;
 
-  console.log("Preguntas de esta partida:");
+  console.log("Questions for this game:");
   console.log(state.gameQuestions);
 };
 
@@ -102,14 +103,20 @@ export const showQuestion = () => {
   question.answers.forEach((answer, index) => {
     const answerButton = document.createElement("button");
     const options = ["a", "b", "c", "d"];
+    const optionIcon = document.createElement("span");
+    const optionText = document.createElement("p");
 
-    answerButton.innerHTML = `<span class="option-icon">${options[index]}</span> <p class="optcion">${answer.text}</p>`;
     answerButton.classList.add("answer");
+    optionIcon.classList.add("option-icon");
+    optionIcon.textContent = options[index];
+    optionText.classList.add("option-text");
+    optionText.textContent = answer.text;
     answerButton.dataset.index = index;
     answerButton.addEventListener("click", () =>
       selectAnswer(answerButton, answersContainer),
     );
 
+    answerButton.append(optionIcon, optionText);
     answersContainer.appendChild(answerButton);
   });
 };
@@ -138,7 +145,7 @@ export const checkCurrentAnswer = () => {
   const question = state.gameQuestions[state.currentQuestionIndex];
   const answer = question.answers[state.selectedAnswerIndex];
 
-  // Find the selected button element
+  // Find the selected answer button.
   const buttons = state.currentCardElement.querySelectorAll(".answer");
   let selectedBtn = null;
   buttons.forEach((btn) => {
@@ -172,7 +179,7 @@ export const checkCurrentAnswer = () => {
       showQuestion();
     }, 800);
   } else {
-    console.log("Partida terminada.");
+    console.log("Game completed.");
     setTimeout(() => {
       if (onGameOverCallback) {
         onGameOverCallback({

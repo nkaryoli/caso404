@@ -1,8 +1,10 @@
-const username = localStorage.getItem("username");
+import { getStoredUsername, launchConfetti, setupLogoutButton } from "./utils.js";
+
+const username = getStoredUsername();
 const stats = JSON.parse(sessionStorage.getItem("gameStats") || "null");
 
 if (!username || !stats) {
-  window.location.href = "./src/pages/menu.html";
+  window.location.href = "../pages/menu.html";
 } else {
   document.querySelector("#player-name").textContent = `Jugador: ${username}`;
   document.querySelector("#total-questions").textContent = stats.total;
@@ -18,22 +20,13 @@ if (!username || !stats) {
 
   if (stats.victory) {
     document.body.classList.add("victory");
-    window.confetti?.({
-      particleCount: 140,
-      spread: 80,
-      startVelocity: 32,
-      colors: ["#1bd9c4", "#ffffff", "#ffdd00"],
-    });
+    launchConfetti();
   }
 }
 
-document.querySelector("#logout-button").addEventListener("click", () => {
-  localStorage.removeItem("username");
-  sessionStorage.removeItem("gameStats");
-  window.location.href = "./index.html";
-});
+setupLogoutButton();
 
 document.querySelector("#restart-button").addEventListener("click", () => {
   sessionStorage.removeItem("gameStats");
-  window.location.href = "./src/menu.html";
+  window.location.href = "../pages/menu.html";
 });

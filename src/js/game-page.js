@@ -1,26 +1,18 @@
-import {
-  checkCurrentAnswer,
-  initGame,
-  loadQuestions,
-  restartGame,
-  showQuestion,
-} from "./juego.js";
+import { checkCurrentAnswer, initGame, loadQuestions, showQuestion } from "./game.js";
+import { getStoredUsername, launchConfetti, setupLogoutButton } from "./utils.js";
 
-const username = localStorage.getItem("username");
+const username = getStoredUsername();
 const questionsList = document.querySelector("#questions-list");
 const checkButton = document.querySelector("#global-check-button");
 const resultsModal = document.querySelector("#results-modal");
 
 if (!username) {
-  window.location.href = "./index.html";
+  window.location.href = "../../index.html";
 }
 
 document.querySelector("#player-name").textContent = `Jugador: ${username}`;
 
-document.querySelector("#logout-button").addEventListener("click", () => {
-  localStorage.removeItem("username");
-  window.location.href = "../../index.html";
-});
+setupLogoutButton();
 
 const handleShowQuestion = (card, progress) => {
   questionsList.classList.toggle("single-question", progress.current === 1);
@@ -46,12 +38,7 @@ const handleGameOver = (stats) => {
   checkButton.classList.add("hidden");
 
   if (stats.victory) {
-    window.confetti?.({
-      particleCount: 140,
-      spread: 80,
-      startVelocity: 32,
-      colors: ["#1bd9c4", "#ffffff", "#ffdd00"],
-    });
+    launchConfetti();
   }
 };
 
@@ -74,17 +61,12 @@ const category = new URLSearchParams(window.location.search).get("category") || 
 
 loadQuestions(category).then((hasQuestions) => {
   if (!hasQuestions) {
-    window.location.href = "./src/pages/menu.html";
+    window.location.href = "./menu.html";
     return;
   }
   showQuestion();
 });
 
 document.querySelector("#restart-button").addEventListener("click", () => {
-  resultsModal.classList.add("hidden");
-  resultsModal.classList.remove("victory");
-  questionsList.innerHTML = "";
-  questionsList.classList.add("single-question");
-  checkButton.classList.remove("hidden");
-  restartGame();
+  window.location.href = "./menu.html";
 });

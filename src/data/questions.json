@@ -1,0 +1,2202 @@
+[
+  {
+    "id": 1,
+    "category": "music",
+    "question": "¿Quién es conocido mundialmente como el 'Rey del Pop'?",
+    "answers": [
+      { "text": "Prince", "correct": false },
+      { "text": "Michael Jackson", "correct": true },
+      { "text": "Elvis Presley", "correct": false },
+      { "text": "Freddie Mercury", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "music",
+    "question": "¿Qué banda británica compuso el álbum 'The Dark Side of the Moon'?",
+    "answers": [
+      { "text": "The Beatles", "correct": false },
+      { "text": "Led Zeppelin", "correct": false },
+      { "text": "Pink Floyd", "correct": true },
+      { "text": "The Rolling Stones", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "music",
+    "question": "¿Cuántas cuerdas suele tener una guitarra clásica o española?",
+    "answers": [
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "6", "correct": true },
+      { "text": "7", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "music",
+    "question": "¿Quién compuso la famosa 'Quinta Sinfonía'?",
+    "answers": [
+      { "text": "Ludwig van Beethoven", "correct": true },
+      { "text": "Wolfgang Amadeus Mozart", "correct": false },
+      { "text": "Johann Sebastian Bach", "correct": false },
+      { "text": "Franz Schubert", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "music",
+    "question": "¿De qué país era originaria la banda ABBA?",
+    "answers": [
+      { "text": "Noruega", "correct": false },
+      { "text": "Dinamarca", "correct": false },
+      { "text": "Finlandia", "correct": false },
+      { "text": "Suecia", "correct": true }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "music",
+    "question": "¿Cuál es la voz femenina más aguda en el canto clásico?",
+    "answers": [
+      { "text": "Contralto", "correct": false },
+      { "text": "Mezzosoprano", "correct": false },
+      { "text": "Soprano", "correct": true },
+      { "text": "Tenor", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "music",
+    "question": "¿Qué famoso cantante y compositor lideró la banda Nirvana?",
+    "answers": [
+      { "text": "Eddie Vedder", "correct": false },
+      { "text": "Kurt Cobain", "correct": true },
+      { "text": "Chris Cornell", "correct": false },
+      { "text": "Layne Staley", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "music",
+    "question": "¿Qué instrumento tocaba Louis Armstrong?",
+    "answers": [
+      { "text": "Saxofón", "correct": false },
+      { "text": "Trompeta", "correct": true },
+      { "text": "Clarinete", "correct": false },
+      { "text": "Trombón", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "music",
+    "question": "¿Cuál fue el álbum debut de la banda Guns N' Roses?",
+    "answers": [
+      { "text": "Appetite for Destruction", "correct": true },
+      { "text": "Use Your Illusion I", "correct": false },
+      { "text": "G N' R Lies", "correct": false },
+      { "text": "The Spaghetti Incident?", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "music",
+    "question": "¿En qué década nació el movimiento cultural y género musical Hip Hop?",
+    "answers": [
+      { "text": "1960s", "correct": false },
+      { "text": "1970s", "correct": true },
+      { "text": "1980s", "correct": false },
+      { "text": "1990s", "correct": false }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "music",
+    "question": "¿Quién interpretó el icónico tema 'Purple Rain'?",
+    "answers": [
+      { "text": "David Bowie", "correct": false },
+      { "text": "Stevie Wonder", "correct": false },
+      { "text": "Prince", "correct": true },
+      { "text": "George Michael", "correct": false }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "music",
+    "question": "¿Qué cantante colombiana interpretó el himno 'Waka Waka' para el Mundial de 2010?",
+    "answers": [
+      { "text": "Karol G", "correct": false },
+      { "text": "Shakira", "correct": true },
+      { "text": "Greeicy", "correct": false },
+      { "text": "Rosalía", "correct": false }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "music",
+    "question": "¿Cuál es el tempo musical que indica una velocidad muy rápida?",
+    "answers": [
+      { "text": "Largo", "correct": false },
+      { "text": "Andante", "correct": false },
+      { "text": "Adagio", "correct": false },
+      { "text": "Presto", "correct": true }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "music",
+    "question": "¿Qué legendario festival de música se celebró en agosto de 1969 en Bethel, Nueva York?",
+    "answers": [
+      { "text": "Glastonbury", "correct": false },
+      { "text": "Woodstock", "correct": true },
+      { "text": "Coachella", "correct": false },
+      { "text": "Monterey Pop", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "music",
+    "question": "¿Quién compuso las famosas 'Cuatro Estaciones'?",
+    "answers": [
+      { "text": "Antonio Vivaldi", "correct": true },
+      { "text": "Giacomo Puccini", "correct": false },
+      { "text": "Giuseppe Verdi", "correct": false },
+      { "text": "Claudio Monteverdi", "correct": false }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "music",
+    "question": "¿Qué banda lanzó la mítica canción 'Bohemian Rhapsody'?",
+    "answers": [
+      { "text": "The Who", "correct": false },
+      { "text": "Queen", "correct": true },
+      { "text": "The Police", "correct": false },
+      { "text": "Aerosmith", "correct": false }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "music",
+    "question": "¿Quién canta 'Rolling in the Deep' y 'Someone Like You'?",
+    "answers": [
+      { "text": "Adele", "correct": true },
+      { "text": "Amy Winehouse", "correct": false },
+      { "text": "Duffy", "correct": false },
+      { "text": "Sia", "correct": false }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "music",
+    "question": "¿A qué familia de instrumentos pertenece el piano?",
+    "answers": [
+      { "text": "Viento metal", "correct": false },
+      { "text": "Cuerda percutida", "correct": true },
+      { "text": "Percusión idiófona", "correct": false },
+      { "text": "Cuerda frotada", "correct": false }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "music",
+    "question": "¿Qué rapero lanzó el aclamado álbum 'The Marshall Mathers LP'?",
+    "answers": [
+      { "text": "Tupac Shakur", "correct": false },
+      { "text": "Snoop Dogg", "correct": false },
+      { "text": "Eminem", "correct": true },
+      { "text": "Jay-Z", "correct": false }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "music",
+    "question": "¿Quién fue apodada la 'Reina del Soul'?",
+    "answers": [
+      { "text": "Aretha Franklin", "correct": true },
+      { "text": "Diana Ross", "correct": false },
+      { "text": "Etta James", "correct": false },
+      { "text": "Tina Turner", "correct": false }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "music",
+    "question": "¿De cuántas notas consta una escala pentatónica tradicional?",
+    "answers": [
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "7", "correct": false }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "music",
+    "question": "¿Cuál es el nombre real del DJ y productor sueco Avicii?",
+    "answers": [
+      { "text": "Tim Bergling", "correct": true },
+      { "text": "Anton Zaslavski", "correct": false },
+      { "text": "Sonny Moore", "correct": false },
+      { "text": "Martijn Garritsen", "correct": false }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "music",
+    "question": "¿Qué artista lanzó los álbumes 'Folklore' y '1989'?",
+    "answers": [
+      { "text": "Katy Perry", "correct": false },
+      { "text": "Taylor Swift", "correct": true },
+      { "text": "Ariana Grande", "correct": false },
+      { "text": "Billie Eilish", "correct": false }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "music",
+    "question": "¿Quién compuso la ópera 'La flauta mágica'?",
+    "answers": [
+      { "text": "Wolfgang Amadeus Mozart", "correct": true },
+      { "text": "Johann Sebastian Bach", "correct": false },
+      { "text": "Richard Wagner", "correct": false },
+      { "text": "Johannes Brahms", "correct": false }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "music",
+    "question": "¿Qué banda de heavy metal lanzó el álbum 'Master of Puppets' en 1986?",
+    "answers": [
+      { "text": "Iron Maiden", "correct": false },
+      { "text": "Megadeth", "correct": false },
+      { "text": "Metallica", "correct": true },
+      { "text": "Judas Priest", "correct": false }
+    ]
+  },
+  {
+    "id": 26,
+    "category": "music",
+    "question": "¿Qué figura musical representa la mitad de la duración de una negra?",
+    "answers": [
+      { "text": "Blanca", "correct": false },
+      { "text": "Corchea", "correct": true },
+      { "text": "Semicorchea", "correct": false },
+      { "text": "Fusa", "correct": false }
+    ]
+  },
+  {
+    "id": 27,
+    "category": "music",
+    "question": "¿De qué ciudad eran originarios The Beatles?",
+    "answers": [
+      { "text": "Londres", "correct": false },
+      { "text": "Manchester", "correct": false },
+      { "text": "Liverpool", "correct": true },
+      { "text": "Birmingham", "correct": false }
+    ]
+  },
+  {
+    "id": 28,
+    "category": "music",
+    "question": "¿Quién popularizó la canción 'Hallelujah' antes de las versiones de Jeff Buckley?",
+    "answers": [
+      { "text": "Bob Dylan", "correct": false },
+      { "text": "Leonard Cohen", "correct": true },
+      { "text": "Paul Simon", "correct": false },
+      { "text": "Neil Young", "correct": false }
+    ]
+  },
+  {
+    "id": 29,
+    "category": "music",
+    "question": "¿Qué instrumento tradicional de viento es icónico de Escocia?",
+    "answers": [
+      { "text": "Gaita", "correct": true },
+      { "text": "Fídula", "correct": false },
+      { "text": "Laúd", "correct": false },
+      { "text": "Ocarina", "correct": false }
+    ]
+  },
+  {
+    "id": 30,
+    "category": "music",
+    "question": "¿Qué grupo de punk rock británico grabó 'Anarchy in the U.K.'?",
+    "answers": [
+      { "text": "The Clash", "correct": false },
+      { "text": "Sex Pistols", "correct": true },
+      { "text": "Ramones", "correct": false },
+      { "text": "The Damned", "correct": false }
+    ]
+  },
+  {
+    "id": 31,
+    "category": "music",
+    "question": "¿Quién es el autor del conocido bolero 'Bésame Mucho'?",
+    "answers": [
+      { "text": "Consuelo Velázquez", "correct": true },
+      { "text": "Armando Manzanero", "correct": false },
+      { "text": "Agustín Lara", "correct": false },
+      { "text": "María Grever", "correct": false }
+    ]
+  },
+  {
+    "id": 32,
+    "category": "music",
+    "question": "¿Qué cantante pop lideró el grupo Destiny's Child?",
+    "answers": [
+      { "text": "Kelly Rowland", "correct": false },
+      { "text": "Beyoncé", "correct": true },
+      { "text": "Michelle Williams", "correct": false },
+      { "text": "Rihanna", "correct": false }
+    ]
+  },
+  {
+    "id": 33,
+    "category": "music",
+    "question": "¿En qué clave musical se escribe habitualmente la música para violonchelo?",
+    "answers": [
+      { "text": "Clave de Fa", "correct": true },
+      { "text": "Clave de Sol", "correct": false },
+      { "text": "Clave de Do en 1ª", "correct": false },
+      { "text": "Clave de Re", "correct": false }
+    ]
+  },
+  {
+    "id": 34,
+    "category": "music",
+    "question": "¿Qué guitarrista tocó el legendario solo de 'Comfortably Numb'?",
+    "answers": [
+      { "text": "David Gilmour", "correct": true },
+      { "text": "Eric Clapton", "correct": false },
+      { "text": "Jimmy Page", "correct": false },
+      { "text": "Jeff Beck", "correct": false }
+    ]
+  },
+  {
+    "id": 35,
+    "category": "music",
+    "question": "¿De qué país es originario el tango?",
+    "answers": [
+      { "text": "España", "correct": false },
+      { "text": "Argentina", "correct": true },
+      { "text": "México", "correct": false },
+      { "text": "Colombia", "correct": false }
+    ]
+  },
+  {
+    "id": 36,
+    "category": "music",
+    "question": "¿Qué banda compuso el tema 'Hotel California'?",
+    "answers": [
+      { "text": "The Eagles", "correct": true },
+      { "text": "Fleetwood Mac", "correct": false },
+      { "text": "The Doors", "correct": false },
+      { "text": "America", "correct": false }
+    ]
+  },
+  {
+    "id": 37,
+    "category": "music",
+    "question": "¿Qué alteración musical eleva un semitono la altura de una nota?",
+    "answers": [
+      { "text": "Bemol", "correct": false },
+      { "text": "Becuadro", "correct": false },
+      { "text": "Sostenido", "correct": true },
+      { "text": "Calderón", "correct": false }
+    ]
+  },
+  {
+    "id": 38,
+    "category": "music",
+    "question": "¿Cómo se llamaba el baterista de The Beatles?",
+    "answers": [
+      { "text": "John Bonham", "correct": false },
+      { "text": "Keith Moon", "correct": false },
+      { "text": "Ringo Starr", "correct": true },
+      { "text": "Charlie Watts", "correct": false }
+    ]
+  },
+  {
+    "id": 39,
+    "category": "music",
+    "question": "¿Qué compositor escribió las bandas sonoras de 'Tiburón', 'Star Wars' y 'Jurassic Park'?",
+    "answers": [
+      { "text": "Hans Zimmer", "correct": false },
+      { "text": "Ennio Morricone", "correct": false },
+      { "text": "John Williams", "correct": true },
+      { "text": "Howard Shore", "correct": false }
+    ]
+  },
+  {
+    "id": 40,
+    "category": "music",
+    "question": "¿Qué dúo francés de música electrónica se separó en 2021 tras 28 años juntos?",
+    "answers": [
+      { "text": "Justice", "correct": false },
+      { "text": "Daft Punk", "correct": true },
+      { "text": "Air", "correct": false },
+      { "text": "Cassius", "correct": false }
+    ]
+  },
+  {
+    "id": 41,
+    "category": "movies",
+    "question": "¿Quién dirigió la película de ciencia ficción 'Inception' (2010)?",
+    "answers": [
+      { "text": "Steven Spielberg", "correct": false },
+      { "text": "Christopher Nolan", "correct": true },
+      { "text": "Denis Villeneuve", "correct": false },
+      { "text": "James Cameron", "correct": false }
+    ]
+  },
+  {
+    "id": 42,
+    "category": "movies",
+    "question": "¿Qué actor interpretó al Joker en 'El caballero oscuro' (2008)?",
+    "answers": [
+      { "text": "Heath Ledger", "correct": true },
+      { "text": "Joaquin Phoenix", "correct": false },
+      { "text": "Jack Nicholson", "correct": false },
+      { "text": "Jared Leto", "correct": false }
+    ]
+  },
+  {
+    "id": 43,
+    "category": "movies",
+    "question": "¿Cuál fue la primera película animada de largometraje estrenada por Disney?",
+    "answers": [
+      { "text": "Pinocho", "correct": false },
+      { "text": "Bambi", "correct": false },
+      { "text": "Blancanieves y los siete enanitos", "correct": true },
+      { "text": "Dumbo", "correct": false }
+    ]
+  },
+  {
+    "id": 44,
+    "category": "movies",
+    "question": "¿Qué película ganó el Óscar a la Mejor Película en 1994 superando a 'Pulp Fiction'?",
+    "answers": [
+      { "text": "Cadena perpetua (The Shawshank Redemption)", "correct": false },
+      { "text": "Forrest Gump", "correct": true },
+      { "text": "Cuatro bodas y un funeral", "correct": false },
+      { "text": "Quiz Show", "correct": false }
+    ]
+  },
+  {
+    "id": 45,
+    "category": "movies",
+    "question": "¿Cómo se llama la inteligencia artificial del computador central en '2001: Una odisea del espacio'?",
+    "answers": [
+      { "text": "HAL 9000", "correct": true },
+      { "text": "Skynet", "correct": false },
+      { "text": "JARVIS", "correct": false },
+      { "text": "Mother", "correct": false }
+    ]
+  },
+  {
+    "id": 46,
+    "category": "movies",
+    "question": "¿Quién interpreta a Neo en la saga 'The Matrix'?",
+    "answers": [
+      { "text": "Brad Pitt", "correct": false },
+      { "text": "Keanu Reeves", "correct": true },
+      { "text": "Tom Cruise", "correct": false },
+      { "text": "Christian Bale", "correct": false }
+    ]
+  },
+  {
+    "id": 47,
+    "category": "movies",
+    "question": "¿Qué cineasta es conocido como el 'Maestro del Suspenso'?",
+    "answers": [
+      { "text": "Stanley Kubrick", "correct": false },
+      { "text": "Alfred Hitchcock", "correct": true },
+      { "text": "Orson Welles", "correct": false },
+      { "text": "Roman Polanski", "correct": false }
+    ]
+  },
+  {
+    "id": 48,
+    "category": "movies",
+    "question": "¿Qué película de James Cameron ambientada en Pandora rompió récords de taquilla en 2009?",
+    "answers": [
+      { "text": "Titanic", "correct": false },
+      { "text": "Avatar", "correct": true },
+      { "text": "Aliens", "correct": false },
+      { "text": "The Abyss", "correct": false }
+    ]
+  },
+  {
+    "id": 49,
+    "category": "movies",
+    "question": "¿Qué actriz dio vida a Katniss Everdeen en la saga 'Los juegos del hambre'?",
+    "answers": [
+      { "text": "Emma Watson", "correct": false },
+      { "text": "Jennifer Lawrence", "correct": true },
+      { "text": "Kristen Stewart", "correct": false },
+      { "text": "Shailene Woodley", "correct": false }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "movies",
+    "question": "¿Quién dirigió la trilogía original cinematográfica de 'El Señor de los Anillos'?",
+    "answers": [
+      { "text": "Peter Jackson", "correct": true },
+      { "text": "George Lucas", "correct": false },
+      { "text": "Guillermo del Toro", "correct": false },
+      { "text": "Ridley Scott", "correct": false }
+    ]
+  },
+  {
+    "id": 51,
+    "category": "movies",
+    "question": "¿Qué película surcoreana hizo historia al ganar el Óscar a Mejor Película en 2020?",
+    "answers": [
+      { "text": "Oldboy", "correct": false },
+      { "text": "Train to Busan", "correct": false },
+      { "text": "Parasite", "correct": true },
+      { "text": "The Handmaiden", "correct": false }
+    ]
+  },
+  {
+    "id": 52,
+    "category": "movies",
+    "question": "¿Cuál es la famosa frase de Darth Vader a Luke Skywalker en 'El Imperio contraataca'?",
+    "answers": [
+      { "text": "\"Luke, yo soy tu padre\"", "correct": false },
+      { "text": "\"No, yo soy tu padre\"", "correct": true },
+      { "text": "\"Obi-Wan te mintió, soy tu padre\"", "correct": false },
+      { "text": "\"Únete a mí, pues soy tu padre\"", "correct": false }
+    ]
+  },
+  {
+    "id": 53,
+    "category": "movies",
+    "question": "¿En qué película aparece por primera vez el personaje Hannibal Lecter interpretado por Anthony Hopkins?",
+    "answers": [
+      { "text": "Red Dragon", "correct": false },
+      { "text": "Hannibal", "correct": false },
+      { "text": "El silencio de los corderos", "correct": true },
+      { "text": "Manhunter", "correct": false }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "movies",
+    "question": "¿Quién dirigió 'Pulp Fiction', 'Kill Bill' e 'Inglourious Basterds'?",
+    "answers": [
+      { "text": "Martin Scorsese", "correct": false },
+      { "text": "Quentin Tarantino", "correct": true },
+      { "text": "David Fincher", "correct": false },
+      { "text": "Guy Ritchie", "correct": false }
+    ]
+  },
+  {
+    "id": 55,
+    "category": "movies",
+    "question": "¿Qué actor interpretó al capitán Jack Sparrow en 'Piratas del Caribe'?",
+    "answers": [
+      { "text": "Orlando Bloom", "correct": false },
+      { "text": "Johnny Depp", "correct": true },
+      { "text": "Geoffrey Rush", "correct": false },
+      { "text": "Javier Bardem", "correct": false }
+    ]
+  },
+  {
+    "id": 56,
+    "category": "movies",
+    "question": "¿Cuál es la película con mayor número de premios Óscar ganados (11), empatada con 'Ben-Hur' y 'Titanic'?",
+    "answers": [
+      { "text": "El Padrino II", "correct": false },
+      { "text": "El Señor de los Anillos: El retorno del Rey", "correct": true },
+      { "text": "La lista de Schindler", "correct": false },
+      { "text": "Lo que el viento se llevó", "correct": false }
+    ]
+  },
+  {
+    "id": 57,
+    "category": "movies",
+    "question": "¿Qué actor encarnó a Iron Man / Tony Stark en el Universo Cinematográfico de Marvel?",
+    "answers": [
+      { "text": "Chris Evans", "correct": false },
+      { "text": "Robert Downey Jr.", "correct": true },
+      { "text": "Mark Ruffalo", "correct": false },
+      { "text": "Chris Hemsworth", "correct": false }
+    ]
+  },
+  {
+    "id": 58,
+    "category": "movies",
+    "question": "¿En qué año se estrenó en cines la primera entrega de 'Jurassic Park'?",
+    "answers": [
+      { "text": "1990", "correct": false },
+      { "text": "1993", "correct": true },
+      { "text": "1995", "correct": false },
+      { "text": "1997", "correct": false }
+    ]
+  },
+  {
+    "id": 59,
+    "category": "movies",
+    "question": "¿Qué cineasta dirigió 'El laberinto del fauno' y 'La forma del agua'?",
+    "answers": [
+      { "text": "Alejandro González Iñárritu", "correct": false },
+      { "text": "Guillermo del Toro", "correct": true },
+      { "text": "Alfonso Cuarón", "correct": false },
+      { "text": "Pedro Almodóvar", "correct": false }
+    ]
+  },
+  {
+    "id": 60,
+    "category": "movies",
+    "question": "¿Quién protagonizó el clásico del cine 'Taxi Driver' (1976)?",
+    "answers": [
+      { "text": "Al Pacino", "correct": false },
+      { "text": "Robert De Niro", "correct": true },
+      { "text": "Dustin Hoffman", "correct": false },
+      { "text": "Jack Nicholson", "correct": false }
+    ]
+  },
+  {
+    "id": 61,
+    "category": "movies",
+    "question": "¿Qué estudio cinematográfico de animación creó 'Toy Story' en 1995?",
+    "answers": [
+      { "text": "DreamWorks", "correct": false },
+      { "text": "Pixar", "correct": true },
+      { "text": "Illumination", "correct": false },
+      { "text": "Blue Sky Studios", "correct": false }
+    ]
+  },
+  {
+    "id": 62,
+    "category": "movies",
+    "question": "¿Cómo se llama el pueblo ficticio donde transcurre la película navideña '¡Qué bello es vivir!'?",
+    "answers": [
+      { "text": "Bedford Falls", "correct": true },
+      { "text": "Pottersville", "correct": false },
+      { "text": "Haddonfield", "correct": false },
+      { "text": "Springfield", "correct": false }
+    ]
+  },
+  {
+    "id": 63,
+    "category": "movies",
+    "question": "¿Qué famosa actriz interpretó a Mia Wallace en 'Pulp Fiction'?",
+    "answers": [
+      { "text": "Uma Thurman", "correct": true },
+      { "text": "Winona Ryder", "correct": false },
+      { "text": "Michelle Pfeiffer", "correct": false },
+      { "text": "Patricia Arquette", "correct": false }
+    ]
+  },
+  {
+    "id": 64,
+    "category": "movies",
+    "question": "¿Quién compuso la famosa banda sonora de 'El bueno, el feo y el malo'?",
+    "answers": [
+      { "text": "Nino Rota", "correct": false },
+      { "text": "Ennio Morricone", "correct": true },
+      { "text": "Bernard Herrmann", "correct": false },
+      { "text": "Henry Mancini", "correct": false }
+    ]
+  },
+  {
+    "id": 65,
+    "category": "movies",
+    "question": "¿Quién interpretó a Michael Corleone en la trilogía 'El Padrino'?",
+    "answers": [
+      { "text": "Marlon Brando", "correct": false },
+      { "text": "Al Pacino", "correct": true },
+      { "text": "James Caan", "correct": false },
+      { "text": "Robert Duvall", "correct": false }
+    ]
+  },
+  {
+    "id": 66,
+    "category": "movies",
+    "question": "¿Qué cineasta dirigió clásicos de animación como 'El viaje de Chihiro' y 'Mi vecino Totoro'?",
+    "answers": [
+      { "text": "Hayao Miyazaki", "correct": true },
+      { "text": "Isao Takahata", "correct": false },
+      { "text": "Makoto Shinkai", "correct": false },
+      { "text": "Satoshi Kon", "correct": false }
+    ]
+  },
+  {
+    "id": 67,
+    "category": "movies",
+    "question": "¿En qué película de Stanley Kubrick el protagonista es sometido a la 'Técnica Ludovico'?",
+    "answers": [
+      { "text": "El resplandor", "correct": false },
+      { "text": "La naranja mecánica", "correct": true },
+      { "text": "Eyes Wide Shut", "correct": false },
+      { "text": "Full Metal Jacket", "correct": false }
+    ]
+  },
+  {
+    "id": 68,
+    "category": "movies",
+    "question": "¿Qué actor británico interpretó a James Bond en 'Casino Royale' (2006)?",
+    "answers": [
+      { "text": "Pierce Brosnan", "correct": false },
+      { "text": "Daniel Craig", "correct": true },
+      { "text": "Sean Connery", "correct": false },
+      { "text": "Roger Moore", "correct": false }
+    ]
+  },
+  {
+    "id": 69,
+    "category": "movies",
+    "question": "¿Quién dirigió la aclamada película 'Tiburón' en 1975?",
+    "answers": [
+      { "text": "George Lucas", "correct": false },
+      { "text": "Steven Spielberg", "correct": true },
+      { "text": "Francis Ford Coppola", "correct": false },
+      { "text": "Brian De Palma", "correct": false }
+    ]
+  },
+  {
+    "id": 70,
+    "category": "movies",
+    "question": "¿Qué actriz ganó el Óscar por su papel como Mia Dolan en 'La La Land' (2016)?",
+    "answers": [
+      { "text": "Emma Stone", "correct": true },
+      { "text": "Emma Watson", "correct": false },
+      { "text": "Anne Hathaway", "correct": false },
+      { "text": "Natalie Portman", "correct": false }
+    ]
+  },
+  {
+    "id": 71,
+    "category": "movies",
+    "question": "¿Cómo se llama el villano con garras metálicas en la saga de terror 'Pesadilla en Elm Street'?",
+    "answers": [
+      { "text": "Jason Voorhees", "correct": false },
+      { "text": "Michael Myers", "correct": false },
+      { "text": "Freddy Krueger", "correct": true },
+      { "text": "Leatherface", "correct": false }
+    ]
+  },
+  {
+    "id": 72,
+    "category": "movies",
+    "question": "¿Cuál es la nave de Han Solo y Chewbacca en 'Star Wars'?",
+    "answers": [
+      { "text": "Caza TIE", "correct": false },
+      { "text": "Halcón Milenario", "correct": true },
+      { "text": "Ala-X", "correct": false },
+      { "text": "Destructor Estelar", "correct": false }
+    ]
+  },
+  {
+    "id": 73,
+    "category": "movies",
+    "question": "¿Qué cineasta dirigió el largometraje bélico 'Apocalypse Now'?",
+    "answers": [
+      { "text": "Francis Ford Coppola", "correct": true },
+      { "text": "Oliver Stone", "correct": false },
+      { "text": "Stanley Kubrick", "correct": false },
+      { "text": "Terrence Malick", "correct": false }
+    ]
+  },
+  {
+    "id": 74,
+    "category": "movies",
+    "question": "¿Quién interpretó a Patrick Bateman en la película 'American Psycho' (2000)?",
+    "answers": [
+      { "text": "Edward Norton", "correct": false },
+      { "text": "Christian Bale", "correct": true },
+      { "text": "Jared Leto", "correct": false },
+      { "text": "Matt Damon", "correct": false }
+    ]
+  },
+  {
+    "id": 75,
+    "category": "movies",
+    "question": "¿Qué película de ciencia ficción de Ridley Scott está inspirada en la novela de Philip K. Dick '¿Sueñan los androides con ovejas eléctricas?'?",
+    "answers": [
+      { "text": "Alien", "correct": false },
+      { "text": "Blade Runner", "correct": true },
+      { "text": "Prometheus", "correct": false },
+      { "text": "The Martian", "correct": false }
+    ]
+  },
+  {
+    "id": 76,
+    "category": "movies",
+    "question": "¿Cómo se llama el personaje interpretado por Tom Hanks que naufraga con un balón llamado Wilson?",
+    "answers": [
+      { "text": "Chuck Noland", "correct": true },
+      { "text": "Forrest Gump", "correct": false },
+      { "text": "Jim Lovell", "correct": false },
+      { "text": "Viktor Navorski", "correct": false }
+    ]
+  },
+  {
+    "id": 77,
+    "category": "movies",
+    "question": "¿Qué actriz encarnó a la icónica Princesa Leia en la saga original de 'Star Wars'?",
+    "answers": [
+      { "text": "Carrie Fisher", "correct": true },
+      { "text": "Sigourney Weaver", "correct": false },
+      { "text": "Natalie Portman", "correct": false },
+      { "text": "Linda Hamilton", "correct": false }
+    ]
+  },
+  {
+    "id": 78,
+    "category": "movies",
+    "question": "¿Quién dirigió la aclamada cinta de suspense 'Seven' (1995)?",
+    "answers": [
+      { "text": "David Fincher", "correct": true },
+      { "text": "Christopher Nolan", "correct": false },
+      { "text": "David Lynch", "correct": false },
+      { "text": "Bryan Singer", "correct": false }
+    ]
+  },
+  {
+    "id": 79,
+    "category": "movies",
+    "question": "¿Cómo se llama la ciudad ficticia protegida por Batman?",
+    "answers": [
+      { "text": "Metrópolis", "correct": false },
+      { "text": "Gotham", "correct": true },
+      { "text": "Star City", "correct": false },
+      { "text": "Central City", "correct": false }
+    ]
+  },
+  {
+    "id": 80,
+    "category": "movies",
+    "question": "¿Qué actriz protagonizó 'Alien, el octavo pasajero' en el papel de Ellen Ripley?",
+    "answers": [
+      { "text": "Sigourney Weaver", "correct": true },
+      { "text": "Jamie Lee Curtis", "correct": false },
+      { "text": "Geena Davis", "correct": false },
+      { "text": "Jodie Foster", "correct": false }
+    ]
+  },
+  {
+    "id": 81,
+    "category": "programming",
+    "question": "¿Qué lenguaje de programación se ejecuta nativamente en los navegadores web?",
+    "answers": [
+      { "text": "Python", "correct": false },
+      { "text": "JavaScript", "correct": true },
+      { "text": "C#", "correct": false },
+      { "text": "Ruby", "correct": false }
+    ]
+  },
+  {
+    "id": 82,
+    "category": "programming",
+    "question": "¿Qué significa el acrónimo SQL?",
+    "answers": [
+      { "text": "Structured Query Language", "correct": true },
+      { "text": "Simple Quick Logic", "correct": false },
+      { "text": "Standard Question Layout", "correct": false },
+      { "text": "System Quality Layer", "correct": false }
+    ]
+  },
+  {
+    "id": 83,
+    "category": "programming",
+    "question": "¿Qué estructura de datos opera bajo el principio LIFO (Last In, First Out)?",
+    "answers": [
+      { "text": "Cola (Queue)", "correct": false },
+      { "text": "Pila (Stack)", "correct": true },
+      { "text": "Lista enlazada", "correct": false },
+      { "text": "Árbol binario", "correct": false }
+    ]
+  },
+  {
+    "id": 84,
+    "category": "programming",
+    "question": "¿Quién fue el creador del lenguaje de programación Python?",
+    "answers": [
+      { "text": "James Gosling", "correct": false },
+      { "text": "Guido van Rossum", "correct": true },
+      { "text": "Bjarne Stroustrup", "correct": false },
+      { "text": "Dennis Ritchie", "correct": false }
+    ]
+  },
+  {
+    "id": 85,
+    "category": "programming",
+    "question": "¿Qué comando de Git se utiliza para crear y descargar una copia de un repositorio remoto en local?",
+    "answers": [
+      { "text": "git commit", "correct": false },
+      { "text": "git push", "correct": false },
+      { "text": "git clone", "correct": true },
+      { "text": "git init", "correct": false }
+    ]
+  },
+  {
+    "id": 86,
+    "category": "programming",
+    "question": "¿Cuál es la complejidad temporal promedio de búsqueda en una tabla hash bien distribuida?",
+    "answers": [
+      { "text": "O(1)", "correct": true },
+      { "text": "O(n)", "correct": false },
+      { "text": "O(log n)", "correct": false },
+      { "text": "O(n^2)", "correct": false }
+    ]
+  },
+  {
+    "id": 87,
+    "category": "programming",
+    "question": "¿Qué palabra clave se usa en JavaScript para declarar una variable cuyo valor no puede ser reasignado?",
+    "answers": [
+      { "text": "var", "correct": false },
+      { "text": "let", "correct": false },
+      { "text": "const", "correct": true },
+      { "text": "static", "correct": false }
+    ]
+  },
+  {
+    "id": 88,
+    "category": "programming",
+    "question": "¿Cuál de los siguientes es un lenguaje tipado estáticamente?",
+    "answers": [
+      { "text": "JavaScript", "correct": false },
+      { "text": "Python", "correct": false },
+      { "text": "Ruby", "correct": false },
+      { "text": "Rust", "correct": true }
+    ]
+  },
+  {
+    "id": 89,
+    "category": "programming",
+    "question": "¿Qué código de estado HTTP indica que un recurso solicitado no fue encontrado en el servidor?",
+    "answers": [
+      { "text": "200", "correct": false },
+      { "text": "301", "correct": false },
+      { "text": "404", "correct": true },
+      { "text": "500", "correct": false }
+    ]
+  },
+  {
+    "id": 90,
+    "category": "programming",
+    "question": "¿Qué paradigma de programación se basa principalmente en objetos que combinan estado y comportamiento?",
+    "answers": [
+      { "text": "Programación Orientada a Objetos (POO)", "correct": true },
+      { "text": "Programación Funcional", "correct": false },
+      { "text": "Programación Lógica", "correct": false },
+      { "text": "Programación Procedural pura", "correct": false }
+    ]
+  },
+  {
+    "id": 91,
+    "category": "programming",
+    "question": "¿Qué operador se utiliza en Python para calcular el exponente o potencia (ej. 2 elevado a 3)?",
+    "answers": [
+      { "text": "^", "correct": false },
+      { "text": "**", "correct": true },
+      { "text": "//", "correct": false },
+      { "text": "%%", "correct": false }
+    ]
+  },
+  {
+    "id": 92,
+    "category": "programming",
+    "question": "¿Qué significa el acrónimo CSS?",
+    "answers": [
+      { "text": "Cascading Style Sheets", "correct": true },
+      { "text": "Computer Styled Systems", "correct": false },
+      { "text": "Creative Sheet Styles", "correct": false },
+      { "text": "Common Syntax Standards", "correct": false }
+    ]
+  },
+  {
+    "id": 93,
+    "category": "programming",
+    "question": "¿Qué gestor de paquetes viene integrado de forma predeterminada con Node.js?",
+    "answers": [
+      { "text": "pip", "correct": false },
+      { "text": "npm", "correct": true },
+      { "text": "composer", "correct": false },
+      { "text": "cargo", "correct": false }
+    ]
+  },
+  {
+    "id": 94,
+    "category": "programming",
+    "question": "¿Cuál es la complejidad temporal en el peor de los casos del algoritmo Quicksort estándar?",
+    "answers": [
+      { "text": "O(n log n)", "correct": false },
+      { "text": "O(n^2)", "correct": true },
+      { "text": "O(log n)", "correct": false },
+      { "text": "O(n)", "correct": false }
+    ]
+  },
+  {
+    "id": 95,
+    "category": "programming",
+    "question": "¿Quién diseñó el lenguaje C en los laboratorios Bell en la década de 1970?",
+    "answers": [
+      { "text": "Dennis Ritchie", "correct": true },
+      { "text": "Ken Thompson", "correct": false },
+      { "text": "Alan Turing", "correct": false },
+      { "text": "Linus Torvalds", "correct": false }
+    ]
+  },
+  {
+    "id": 96,
+    "category": "programming",
+    "question": "¿Qué método HTTP se utiliza habitualmente en una API REST para crear un nuevo recurso?",
+    "answers": [
+      { "text": "GET", "correct": false },
+      { "text": "POST", "correct": true },
+      { "text": "DELETE", "correct": false },
+      { "text": "PUT", "correct": false }
+    ]
+  },
+  {
+    "id": 97,
+    "category": "programming",
+    "question": "¿Cuál de las siguientes bases de datos es un motor relacional (SQL)?",
+    "answers": [
+      { "text": "MongoDB", "correct": false },
+      { "text": "PostgreSQL", "correct": true },
+      { "text": "Redis", "correct": false },
+      { "text": "Cassandra", "correct": false }
+    ]
+  },
+  {
+    "id": 98,
+    "category": "programming",
+    "question": "¿Qué formato de texto ligero para intercambio de datos deriva de la sintaxis de objetos de JavaScript?",
+    "answers": [
+      { "text": "XML", "correct": false },
+      { "text": "YAML", "correct": false },
+      { "text": "JSON", "correct": true },
+      { "text": "CSV", "correct": false }
+    ]
+  },
+  {
+    "id": 99,
+    "category": "programming",
+    "question": "¿Qué tipo de bucle evalúa su condición DESPUÉS de ejecutar su bloque de código al menos una vez?",
+    "answers": [
+      { "text": "for", "correct": false },
+      { "text": "while", "correct": false },
+      { "text": "do-while", "correct": true },
+      { "text": "foreach", "correct": false }
+    ]
+  },
+  {
+    "id": 100,
+    "category": "programming",
+    "question": "¿Qué significa el acrónimo DOM en desarrollo web?",
+    "answers": [
+      { "text": "Data Oriented Module", "correct": false },
+      { "text": "Document Object Model", "correct": true },
+      { "text": "Direct Object Manipulation", "correct": false },
+      { "text": "Distributed Order Management", "correct": false }
+    ]
+  },
+  {
+    "id": 101,
+    "category": "programming",
+    "question": "¿Cuál es la palabra clave en Python para definir una función?",
+    "answers": [
+      { "text": "func", "correct": false },
+      { "text": "def", "correct": true },
+      { "text": "function", "correct": false },
+      { "text": "lambda", "correct": false }
+    ]
+  },
+  {
+    "id": 102,
+    "category": "programming",
+    "question": "¿Qué principio SOLID establece que una clase debe tener una sola razón para cambiar?",
+    "answers": [
+      { "text": "Responsabilidad Única (SRP)", "correct": true },
+      { "text": "Abierto/Cerrado (OCP)", "correct": false },
+      { "text": "Sustitución de Liskov (LSP)", "correct": false },
+      { "text": "Inversión de Dependencias (DIP)", "correct": false }
+    ]
+  },
+  {
+    "id": 103,
+    "category": "programming",
+    "question": "¿Qué comando de Git descarta cambios del área de trabajo o cambia entre ramas?",
+    "answers": [
+      { "text": "git merge", "correct": false },
+      { "text": "git checkout", "correct": true },
+      { "text": "git stash", "correct": false },
+      { "text": "git status", "correct": false }
+    ]
+  },
+  {
+    "id": 104,
+    "category": "programming",
+    "question": "¿Cuál es el valor predeterminado del puntero 'this' en el ámbito global del navegador (no en modo estricto)?",
+    "answers": [
+      { "text": "undefined", "correct": false },
+      { "text": "null", "correct": false },
+      { "text": "window", "correct": true },
+      { "text": "document", "correct": false }
+    ]
+  },
+  {
+    "id": 105,
+    "category": "programming",
+    "question": "¿Qué lenguaje de programación se compila para ejecutarse en la máquina virtual JVM?",
+    "answers": [
+      { "text": "Kotlin", "correct": true },
+      { "text": "C++", "correct": false },
+      { "text": "Swift", "correct": false },
+      { "text": "Go", "correct": false }
+    ]
+  },
+  {
+    "id": 106,
+    "category": "programming",
+    "question": "¿Qué operador lógico en C, Java y JavaScript representa el 'Y' lógico (AND)?",
+    "answers": [
+      { "text": "||", "correct": false },
+      { "text": "&&", "correct": true },
+      { "text": "!", "correct": false },
+      { "text": "&|", "correct": false }
+    ]
+  },
+  {
+    "id": 107,
+    "category": "programming",
+    "question": "¿Qué función se utiliza comúnmente para imprimir texto en la consola en JavaScript?",
+    "answers": [
+      { "text": "print()", "correct": false },
+      { "text": "console.log()", "correct": true },
+      { "text": "System.out.println()", "correct": false },
+      { "text": "echo()", "correct": false }
+    ]
+  },
+  {
+    "id": 108,
+    "category": "programming",
+    "question": "¿Cuál es la extensión de archivo típica para componentes de React con sintaxis XML/HTML?",
+    "answers": [
+      { "text": ".js", "correct": false },
+      { "text": ".jsx", "correct": true },
+      { "text": ".rc", "correct": false },
+      { "text": ".re", "correct": false }
+    ]
+  },
+  {
+    "id": 109,
+    "category": "programming",
+    "question": "¿Qué concepto describe una función que se llama a sí misma para resolver subproblemas?",
+    "answers": [
+      { "text": "Iteración", "correct": false },
+      { "text": "Recursividad", "correct": true },
+      { "text": "Encapsulamiento", "correct": false },
+      { "text": "Polimorfismo", "correct": false }
+    ]
+  },
+  {
+    "id": 110,
+    "category": "programming",
+    "question": "¿Qué estructura de datos almacena pares de clave-valor?",
+    "answers": [
+      { "text": "Diccionario / Map", "correct": true },
+      { "text": "Array", "correct": false },
+      { "text": "Set", "correct": false },
+      { "text": "Queue", "correct": false }
+    ]
+  },
+  {
+    "id": 111,
+    "category": "programming",
+    "question": "¿Qué tipo de dato en TypeScript o JavaScript sólo puede tener los valores true o false?",
+    "answers": [
+      { "text": "string", "correct": false },
+      { "text": "number", "correct": false },
+      { "text": "boolean", "correct": true },
+      { "text": "symbol", "correct": false }
+    ]
+  },
+  {
+    "id": 112,
+    "category": "programming",
+    "question": "¿Qué significa el acrónimo API?",
+    "answers": [
+      { "text": "Application Programming Interface", "correct": true },
+      { "text": "Automated Program Instruction", "correct": false },
+      { "text": "Applied Protocol Integration", "correct": false },
+      { "text": "Advanced Package Identifier", "correct": false }
+    ]
+  },
+  {
+    "id": 113,
+    "category": "programming",
+    "question": "¿Qué cláusula SQL se utiliza para filtrar filas devueltas por una consulta?",
+    "answers": [
+      { "text": "ORDER BY", "correct": false },
+      { "text": "WHERE", "correct": true },
+      { "text": "GROUP BY", "correct": false },
+      { "text": "LIMIT", "correct": false }
+    ]
+  },
+  {
+    "id": 114,
+    "category": "programming",
+    "question": "¿Qué tecnología de contenedores permite empaquetar aplicaciones con todas sus dependencias?",
+    "answers": [
+      { "text": "Docker", "correct": true },
+      { "text": "Webpack", "correct": false },
+      { "text": "Vite", "correct": false },
+      { "text": "Babel", "correct": false }
+    ]
+  },
+  {
+    "id": 115,
+    "category": "programming",
+    "question": "¿Qué palabra reservada se usa en Java y C++ para heredar de una clase base?",
+    "answers": [
+      { "text": "implements", "correct": false },
+      { "text": "extends", "correct": true },
+      { "text": "inherits", "correct": false },
+      { "text": "derive", "correct": false }
+    ]
+  },
+  {
+    "id": 116,
+    "category": "programming",
+    "question": "¿Qué estructura de datos permite almacenar elementos únicos sin duplicados?",
+    "answers": [
+      { "text": "Set (Conjunto)", "correct": true },
+      { "text": "List (Lista)", "correct": false },
+      { "text": "Vector", "correct": false },
+      { "text": "Array", "correct": false }
+    ]
+  },
+  {
+    "id": 117,
+    "category": "programming",
+    "question": "¿Cuál es el puerto de red por defecto para el protocolo HTTPS?",
+    "answers": [
+      { "text": "80", "correct": false },
+      { "text": "443", "correct": true },
+      { "text": "8080", "correct": false },
+      { "text": "21", "correct": false }
+    ]
+  },
+  {
+    "id": 118,
+    "category": "programming",
+    "question": "¿Qué biblioteca o framework frontend fue desarrollado y mantenido por Meta (Facebook)?",
+    "answers": [
+      { "text": "Vue", "correct": false },
+      { "text": "Angular", "correct": false },
+      { "text": "React", "correct": true },
+      { "text": "Svelte", "correct": false }
+    ]
+  },
+  {
+    "id": 119,
+    "category": "programming",
+    "question": "¿Cómo se conoce al error de diseño de software que intenta acceder a una referencia de memoria que apunta a la nada?",
+    "answers": [
+      { "text": "Buffer Overflow", "correct": false },
+      { "text": "Null Pointer Exception / Null Dereference", "correct": true },
+      { "text": "Deadlock", "correct": false },
+      { "text": "Race Condition", "correct": false }
+    ]
+  },
+  {
+    "id": 120,
+    "category": "programming",
+    "question": "¿Qué gestor de dependencias es estándar para el lenguaje de desarrollo Rust?",
+    "answers": [
+      { "text": "Cargo", "correct": true },
+      { "text": "Composer", "correct": false },
+      { "text": "Gradle", "correct": false },
+      { "text": "Maven", "correct": false }
+    ]
+  },
+  {
+    "id": 121,
+    "category": "games",
+    "question": "¿Cómo se llama el protagonista principal de la saga 'The Legend of Zelda'?",
+    "answers": [
+      { "text": "Zelda", "correct": false },
+      { "text": "Link", "correct": true },
+      { "text": "Ganon", "correct": false },
+      { "text": "Epona", "correct": false }
+    ]
+  },
+  {
+    "id": 122,
+    "category": "games",
+    "question": "¿Qué compañía japonesa diseñó y comercializó la consola PlayStation original?",
+    "answers": [
+      { "text": "Nintendo", "correct": false },
+      { "text": "Sega", "correct": false },
+      { "text": "Sony", "correct": true },
+      { "text": "Konami", "correct": false }
+    ]
+  },
+  {
+    "id": 123,
+    "category": "games",
+    "question": "¿Qué bloque mineral es el más resistente a explosiones y sólo se puede picar con pico de diamante o netherita en Minecraft?",
+    "answers": [
+      { "text": "Piedra base (Bedrock)", "correct": false },
+      { "text": "Obsidiana", "correct": true },
+      { "text": "Hierro", "correct": false },
+      { "text": "Granito", "correct": false }
+    ]
+  },
+  {
+    "id": 124,
+    "category": "games",
+    "question": "¿Cuál es la profesión original de Mario en los videojuegos de Nintendo?",
+    "answers": [
+      { "text": "Carpintero", "correct": false },
+      { "text": "Fontanero", "correct": true },
+      { "text": "Electricista", "correct": false },
+      { "text": "Constructor", "correct": false }
+    ]
+  },
+  {
+    "id": 125,
+    "category": "games",
+    "question": "¿En qué año se lanzó el icónico juego arcade 'Pac-Man' de Namco?",
+    "answers": [
+      { "text": "1978", "correct": false },
+      { "text": "1980", "correct": true },
+      { "text": "1983", "correct": false },
+      { "text": "1985", "correct": false }
+    ]
+  },
+  {
+    "id": 126,
+    "category": "games",
+    "question": "¿Qué juego popularizó masivamente el género Battle Royale a partir de 2017 con su modo gratuito?",
+    "answers": [
+      { "text": "Apex Legends", "correct": false },
+      { "text": "Fortnite", "correct": true },
+      { "text": "Call of Duty: Warzone", "correct": false },
+      { "text": "H1Z1", "correct": false }
+    ]
+  },
+  {
+    "id": 127,
+    "category": "games",
+    "question": "¿Quién es el protagonista principal de la saga 'God of War'?",
+    "answers": [
+      { "text": "Ares", "correct": false },
+      { "text": "Kratos", "correct": true },
+      { "text": "Zeus", "correct": false },
+      { "text": "Atreus", "correct": false }
+    ]
+  },
+  {
+    "id": 128,
+    "category": "games",
+    "question": "¿Cómo se llama el mundo subterráneo al que se viaja mediante un portal de obsidiana en Minecraft?",
+    "answers": [
+      { "text": "The End", "correct": false },
+      { "text": "Nether", "correct": true },
+      { "text": "Aether", "correct": false },
+      { "text": "Abyss", "correct": false }
+    ]
+  },
+  {
+    "id": 129,
+    "category": "games",
+    "question": "¿Qué franquicia de videojuegos incluye mapas icónicos como 'Dust II' e 'Inferno'?",
+    "answers": [
+      { "text": "Call of Duty", "correct": false },
+      { "text": "Counter-Strike", "correct": true },
+      { "text": "Valorant", "correct": false },
+      { "text": "Rainbow Six Siege", "correct": false }
+    ]
+  },
+  {
+    "id": 130,
+    "category": "games",
+    "question": "¿Cómo se llama la heroína arqueóloga de la serie 'Tomb Raider'?",
+    "answers": [
+      { "text": "Jill Valentine", "correct": false },
+      { "text": "Lara Croft", "correct": true },
+      { "text": "Claire Redfield", "correct": false },
+      { "text": "Elena Fisher", "correct": false }
+    ]
+  },
+  {
+    "id": 131,
+    "category": "games",
+    "question": "¿Qué tipo de Pokémon inicial es Charmander?",
+    "answers": [
+      { "text": "Agua", "correct": false },
+      { "text": "Fuego", "correct": true },
+      { "text": "Planta", "correct": false },
+      { "text": "Eléctrico", "correct": false }
+    ]
+  },
+  {
+    "id": 132,
+    "category": "games",
+    "question": "¿Cómo se llama la ciudad sumergida en la que transcurre 'BioShock'?",
+    "answers": [
+      { "text": "Columbia", "correct": false },
+      { "text": "Rapture", "correct": true },
+      { "text": "Atlantis", "correct": false },
+      { "text": "Midgar", "correct": false }
+    ]
+  },
+  {
+    "id": 133,
+    "category": "games",
+    "question": "¿Cuál es el título del juego de rol de CD Projekt Red protagonizado por Geralt de Rivia?",
+    "answers": [
+      { "text": "The Elder Scrolls", "correct": false },
+      { "text": "The Witcher 3: Wild Hunt", "correct": true },
+      { "text": "Dark Souls", "correct": false },
+      { "text": "Dragon Age", "correct": false }
+    ]
+  },
+  {
+    "id": 134,
+    "category": "games",
+    "question": "¿Quién es el creador de la serie 'Metal Gear'?",
+    "answers": [
+      { "text": "Shigeru Miyamoto", "correct": false },
+      { "text": "Hideo Kojima", "correct": true },
+      { "text": "Shinji Mikami", "correct": false },
+      { "text": "Hidetaka Miyazaki", "correct": false }
+    ]
+  },
+  {
+    "id": 135,
+    "category": "games",
+    "question": "¿Cómo se llama el erizo azul mascota de Sega?",
+    "answers": [
+      { "text": "Tails", "correct": false },
+      { "text": "Sonic", "correct": true },
+      { "text": "Knuckles", "correct": false },
+      { "text": "Shadow", "correct": false }
+    ]
+  },
+  {
+    "id": 136,
+    "category": "games",
+    "question": "¿Qué estudio desarrolló 'Dark Souls', 'Bloodborne' y 'Elden Ring'?",
+    "answers": [
+      { "text": "FromSoftware", "correct": true },
+      { "text": "Capcom", "correct": false },
+      { "text": "Square Enix", "correct": false },
+      { "text": "PlatinumGames", "correct": false }
+    ]
+  },
+  {
+    "id": 137,
+    "category": "games",
+    "question": "¿Qué empresa desarrolló la consola Xbox original lanzada en 2001?",
+    "answers": [
+      { "text": "Apple", "correct": false },
+      { "text": "Microsoft", "correct": true },
+      { "text": "IBM", "correct": false },
+      { "text": "Atari", "correct": false }
+    ]
+  },
+  {
+    "id": 138,
+    "category": "games",
+    "question": "¿Cuál es la moneda principal que se utiliza en 'The Legend of Zelda'?",
+    "answers": [
+      { "text": "Monedas de oro", "correct": false },
+      { "text": "Rupias", "correct": true },
+      { "text": "Gil", "correct": false },
+      { "text": "Zenny", "correct": false }
+    ]
+  },
+  {
+    "id": 139,
+    "category": "games",
+    "question": "¿Qué juego clásico de puzles fue diseñado por Alekséi Pázhitnov en 1984?",
+    "answers": [
+      { "text": "Tetris", "correct": true },
+      { "text": "Columns", "correct": false },
+      { "text": "Puyo Puyo", "correct": false },
+      { "text": "Dr. Mario", "correct": false }
+    ]
+  },
+  {
+    "id": 140,
+    "category": "games",
+    "question": "¿Quién es el cazarrecompensas protagonista de la saga 'Halo'?",
+    "answers": [
+      { "text": "Master Chief (Jefe Maestro)", "correct": true },
+      { "text": "Marcus Fenix", "correct": false },
+      { "text": "Doom Slayer", "correct": false },
+      { "text": "Samus Aran", "correct": false }
+    ]
+  },
+  {
+    "id": 141,
+    "category": "games",
+    "question": "¿Cuál es el videojuego más vendido de todos los tiempos con más de 300 millones de copias?",
+    "answers": [
+      { "text": "Grand Theft Auto V", "correct": false },
+      { "text": "Minecraft", "correct": true },
+      { "text": "Wii Sports", "correct": false },
+      { "text": "PUBG", "correct": false }
+    ]
+  },
+  {
+    "id": 142,
+    "category": "games",
+    "question": "¿En qué franquicia de juegos aparece la corporación farmacéutica Umbrella?",
+    "answers": [
+      { "text": "Silent Hill", "correct": false },
+      { "text": "Resident Evil", "correct": true },
+      { "text": "Dead Space", "correct": false },
+      { "text": "Alone in the Dark", "correct": false }
+    ]
+  },
+  {
+    "id": 143,
+    "category": "games",
+    "question": "¿Qué personaje es la protagonista con traje cibernético en la saga 'Metroid'?",
+    "answers": [
+      { "text": "Samus Aran", "correct": true },
+      { "text": "Bayonetta", "correct": false },
+      { "text": "Chun-Li", "correct": false },
+      { "text": "Aloy", "correct": false }
+    ]
+  },
+  {
+    "id": 144,
+    "category": "games",
+    "question": "¿Cómo se llama el protagonista de 'Grand Theft Auto: San Andreas'?",
+    "answers": [
+      { "text": "Tommy Vercetti", "correct": false },
+      { "text": "Carl 'CJ' Johnson", "correct": true },
+      { "text": "Niko Bellic", "correct": false },
+      { "text": "Trevor Philips", "correct": false }
+    ]
+  },
+  {
+    "id": 145,
+    "category": "games",
+    "question": "¿Qué título de Blizzard Entertainment es un juego de cartas digital ambientado en el universo de Warcraft?",
+    "answers": [
+      { "text": "Diablo", "correct": false },
+      { "text": "Hearthstone", "correct": true },
+      { "text": "Overwatch", "correct": false },
+      { "text": "StarCraft", "correct": false }
+    ]
+  },
+  {
+    "id": 146,
+    "category": "games",
+    "question": "¿Qué juego de lucha introdujo el infame sistema de remate 'Fatality'?",
+    "answers": [
+      { "text": "Street Fighter", "correct": false },
+      { "text": "Tekken", "correct": false },
+      { "text": "Mortal Kombat", "correct": true },
+      { "text": "Killer Instinct", "correct": false }
+    ]
+  },
+  {
+    "id": 147,
+    "category": "games",
+    "question": "¿Cómo se llama el reino ficticio gobernado por la Princesa Peach en la serie Mario?",
+    "answers": [
+      { "text": "Reino Champiñón", "correct": true },
+      { "text": "Hyrule", "correct": false },
+      { "text": "Dream Land", "correct": false },
+      { "text": "Kanto", "correct": false }
+    ]
+  },
+  {
+    "id": 148,
+    "category": "games",
+    "question": "¿Qué juego independiente de 2015 sobre un humano caído en el subsuelo fue creado casi en su totalidad por Toby Fox?",
+    "answers": [
+      { "text": "Celeste", "correct": false },
+      { "text": "Hollow Knight", "correct": false },
+      { "text": "Undertale", "correct": true },
+      { "text": "Omori", "correct": false }
+    ]
+  },
+  {
+    "id": 149,
+    "category": "games",
+    "question": "¿Quién es el villano principal y archienemigo de Sonic the Hedgehog?",
+    "answers": [
+      { "text": "Dr. Eggman (Robotnik)", "correct": true },
+      { "text": "Bowser", "correct": false },
+      { "text": "King K. Rool", "correct": false },
+      { "text": "Sephiroth", "correct": false }
+    ]
+  },
+  {
+    "id": 150,
+    "category": "games",
+    "question": "¿Qué empresa de videojuegos opera y gestiona la plataforma de distribución digital Steam?",
+    "answers": [
+      { "text": "Epic Games", "correct": false },
+      { "text": "Valve", "correct": true },
+      { "text": "EA", "correct": false },
+      { "text": "Ubisoft", "correct": false }
+    ]
+  },
+  {
+    "id": 151,
+    "category": "games",
+    "question": "¿Qué objeto de 'Portal' te permite crear portales de enlace espacial?",
+    "answers": [
+      { "text": "Pistola de gravedad", "correct": false },
+      { "text": "Aperture Science Handheld Portal Device", "correct": true },
+      { "text": "Rayo tractor cuántico", "correct": false },
+      { "text": "Llave inglesa cuántica", "correct": false }
+    ]
+  },
+  {
+    "id": 152,
+    "category": "games",
+    "question": "¿Cómo se llama el androide detective protagonista de 'Detroit: Become Human'?",
+    "answers": [
+      { "text": "Connor", "correct": true },
+      { "text": "Markus", "correct": false },
+      { "text": "Kara", "correct": false },
+      { "text": "Hank", "correct": false }
+    ]
+  },
+  {
+    "id": 153,
+    "category": "games",
+    "question": "¿Qué personaje es el líder de la banda de forajidos en 'Red Dead Redemption 2'?",
+    "answers": [
+      { "text": "John Marston", "correct": false },
+      { "text": "Dutch van der Linde", "correct": true },
+      { "text": "Arthur Morgan", "correct": false },
+      { "text": "Micah Bell", "correct": false }
+    ]
+  },
+  {
+    "id": 154,
+    "category": "games",
+    "question": "¿Cuál es el objetivo principal del juego social 'Among Us' para la tripulación?",
+    "answers": [
+      { "text": "Construir una nave", "correct": false },
+      { "text": "Completar tareas y descubrir a los impostores", "correct": true },
+      { "text": "Derrotar a oleadas alienígenas", "correct": false },
+      { "text": "Recoger gemas lunares", "correct": false }
+    ]
+  },
+  {
+    "id": 155,
+    "category": "games",
+    "question": "¿Qué juego de rol masivo en línea (MMORPG) ostenta el récord de más de 20 años de historia continua desarrollado por Blizzard?",
+    "answers": [
+      { "text": "Guild Wars 2", "correct": false },
+      { "text": "World of Warcraft", "correct": true },
+      { "text": "RuneScape", "correct": false },
+      { "text": "Final Fantasy XIV", "correct": false }
+    ]
+  },
+  {
+    "id": 156,
+    "category": "games",
+    "question": "¿Qué personaje es el hermano gemelo menor de Mario?",
+    "answers": [
+      { "text": "Wario", "correct": false },
+      { "text": "Luigi", "correct": true },
+      { "text": "Waluigi", "correct": false },
+      { "text": "Toad", "correct": false }
+    ]
+  },
+  {
+    "id": 157,
+    "category": "games",
+    "question": "¿Qué clase de arma maneja Cloud Strife en 'Final Fantasy VII'?",
+    "answers": [
+      { "text": "Espada Mortal (Buster Sword)", "correct": true },
+      { "text": "Gunblade", "correct": false },
+      { "text": "Masamune", "correct": false },
+      { "text": "Daga rúnica", "correct": false }
+    ]
+  },
+  {
+    "id": 158,
+    "category": "games",
+    "question": "¿Cuál fue la primera consola portátil lanzada en la línea 'Game Boy' por Nintendo?",
+    "answers": [
+      { "text": "Game Boy Color", "correct": false },
+      { "text": "Game Boy original (1989)", "correct": true },
+      { "text": "Game Boy Advance", "correct": false },
+      { "text": "Game Boy Pocket", "correct": false }
+    ]
+  },
+  {
+    "id": 159,
+    "category": "games",
+    "question": "¿Cómo se llama el insecto caballero protagonista en 'Hollow Knight'?",
+    "answers": [
+      { "text": "Hornet", "correct": false },
+      { "text": "The Knight (El Caballero)", "correct": true },
+      { "text": "Quirrel", "correct": false },
+      { "text": "Zote", "correct": false }
+    ]
+  },
+  {
+    "id": 160,
+    "category": "games",
+    "question": "¿Qué deporte combina conducción con acrobacias aéreas y fútbol en 'Rocket League'?",
+    "answers": [
+      { "text": "Fútbol con coches cohete", "correct": true },
+      { "text": "Baloncesto con karts", "correct": false },
+      { "text": "Hockey con patinetes", "correct": false },
+      { "text": "Tenis con motos", "correct": false }
+    ]
+  },
+  {
+    "id": 161,
+    "category": "sports",
+    "question": "¿Cuántos jugadores por equipo están en el campo al inicio de un partido reglamentario de fútbol?",
+    "answers": [
+      { "text": "9", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "11", "correct": true },
+      { "text": "12", "correct": false }
+    ]
+  },
+  {
+    "id": 162,
+    "category": "sports",
+    "question": "¿Qué tenista ha ganado 14 títulos individuales del torneo de Roland Garros?",
+    "answers": [
+      { "text": "Roger Federer", "correct": false },
+      { "text": "Rafael Nadal", "correct": true },
+      { "text": "Novak Djokovic", "correct": false },
+      { "text": "Björn Borg", "correct": false }
+    ]
+  },
+  {
+    "id": 163,
+    "category": "sports",
+    "question": "¿Cuánto dura un cuarto oficial en un partido de la NBA?",
+    "answers": [
+      { "text": "10 minutos", "correct": false },
+      { "text": "12 minutos", "correct": true },
+      { "text": "15 minutos", "correct": false },
+      { "text": "20 minutos", "correct": false }
+    ]
+  },
+  {
+    "id": 164,
+    "category": "sports",
+    "question": "¿Qué país ganó la Copa Mundial de Fútbol de la FIFA en Catar 2022?",
+    "answers": [
+      { "text": "Francia", "correct": false },
+      { "text": "Argentina", "correct": true },
+      { "text": "Croacia", "correct": false },
+      { "text": "Brasil", "correct": false }
+    ]
+  },
+  {
+    "id": 165,
+    "category": "sports",
+    "question": "¿Cuál es la distancia oficial exacta de una carrera de maratón?",
+    "answers": [
+      { "text": "40 km", "correct": false },
+      { "text": "42,195 km", "correct": true },
+      { "text": "45 km", "correct": false },
+      { "text": "50,250 km", "correct": false }
+    ]
+  },
+  {
+    "id": 166,
+    "category": "sports",
+    "question": "¿Quién tiene el récord mundial de los 100 metros lisos en atletismo masculino (9,58 segundos)?",
+    "answers": [
+      { "text": "Tyson Gay", "correct": false },
+      { "text": "Usain Bolt", "correct": true },
+      { "text": "Carl Lewis", "correct": false },
+      { "text": "Yohan Blake", "correct": false }
+    ]
+  },
+  {
+    "id": 167,
+    "category": "sports",
+    "question": "¿En qué deporte se utiliza el término 'home run'?",
+    "answers": [
+      { "text": "Béisbol", "correct": true },
+      { "text": "Críquet", "correct": false },
+      { "text": "Golf", "correct": false },
+      { "text": "Rugby", "correct": false }
+    ]
+  },
+  {
+    "id": 168,
+    "category": "sports",
+    "question": "¿Cuántos puntos vale un tiro libre encestado en baloncesto?",
+    "answers": [
+      { "text": "1", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ]
+  },
+  {
+    "id": 169,
+    "category": "sports",
+    "question": "¿Qué país es el que más veces ha ganado la Copa Mundial de Fútbol masculino en la historia?",
+    "answers": [
+      { "text": "Alemania", "correct": false },
+      { "text": "Italia", "correct": false },
+      { "text": "Brasil", "correct": true },
+      { "text": "Argentina", "correct": false }
+    ]
+  },
+  {
+    "id": 170,
+    "category": "sports",
+    "question": "¿Qué nadador estadounidense ostenta el récord de más medallas olímpicas de oro en la historia (23 oros)?",
+    "answers": [
+      { "text": "Mark Spitz", "correct": false },
+      { "text": "Michael Phelps", "correct": true },
+      { "text": "Ryan Lochte", "correct": false },
+      { "text": "Caeleb Dressel", "correct": false }
+    ]
+  },
+  {
+    "id": 171,
+    "category": "sports",
+    "question": "¿En qué país se originaron los Juegos Olímpicos de la Antigüedad?",
+    "answers": [
+      { "text": "Italia", "correct": false },
+      { "text": "Grecia", "correct": true },
+      { "text": "Egipto", "correct": false },
+      { "text": "Persia", "correct": false }
+    ]
+  },
+  {
+    "id": 172,
+    "category": "sports",
+    "question": "¿Cuántos hoyos conforman una vuelta estándar completa en un campo de golf reglamentario?",
+    "answers": [
+      { "text": "9", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "18", "correct": true },
+      { "text": "24", "correct": false }
+    ]
+  },
+  {
+    "id": 173,
+    "category": "sports",
+    "question": "¿Qué piloto ostenta el récord empatado de 7 títulos mundiales de Fórmula 1 junto con Lewis Hamilton?",
+    "answers": [
+      { "text": "Ayrton Senna", "correct": false },
+      { "text": "Michael Schumacher", "correct": true },
+      { "text": "Sebastian Vettel", "correct": false },
+      { "text": "Alain Prost", "correct": false }
+    ]
+  },
+  {
+    "id": 174,
+    "category": "sports",
+    "question": "¿De cuántos jugadores se compone un equipo de voleibol pista dentro del terreno de juego?",
+    "answers": [
+      { "text": "5", "correct": false },
+      { "text": "6", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "8", "correct": false }
+    ]
+  },
+  {
+    "id": 175,
+    "category": "sports",
+    "question": "¿Qué premio individual anual otorga la revista France Football al mejor futbolista del mundo?",
+    "answers": [
+      { "text": "Bota de Oro", "correct": false },
+      { "text": "Balón de Oro", "correct": true },
+      { "text": "The Best", "correct": false },
+      { "text": "Trofeo Kopa", "correct": false }
+    ]
+  },
+  {
+    "id": 176,
+    "category": "sports",
+    "question": "¿Cómo se llama la puntuación máxima al posar el balón tras la línea de meta en rugby?",
+    "answers": [
+      { "text": "Touchdown", "correct": false },
+      { "text": "Ensayo (Try)", "correct": true },
+      { "text": "Drop", "correct": false },
+      { "text": "Conversión", "correct": false }
+    ]
+  },
+  {
+    "id": 177,
+    "category": "sports",
+    "question": "¿Qué superficie se utiliza en las pistas del torneo de tenis de Wimbledon?",
+    "answers": [
+      { "text": "Tierra batida", "correct": false },
+      { "text": "Hierba natural", "correct": true },
+      { "text": "Pista dura (cemento)", "correct": false },
+      { "text": "Moqueta sintética", "correct": false }
+    ]
+  },
+  {
+    "id": 178,
+    "category": "sports",
+    "question": "¿En qué deporte destacó mundialmente Muhammad Ali?",
+    "answers": [
+      { "text": "Lucha libre", "correct": false },
+      { "text": "Boxeo", "correct": true },
+      { "text": "Judo", "correct": false },
+      { "text": "Karate", "correct": false }
+    ]
+  },
+  {
+    "id": 179,
+    "category": "sports",
+    "question": "¿Cuál es la puntuación máxima perfecta en una partida estándar de bolos (bowling)?",
+    "answers": [
+      { "text": "200", "correct": false },
+      { "text": "250", "correct": false },
+      { "text": "300", "correct": true },
+      { "text": "350", "correct": false }
+    ]
+  },
+  {
+    "id": 180,
+    "category": "sports",
+    "question": "¿Qué gimnasta estadounidense ha ganado más de 30 medallas combinadas entre Juegos Olímpicos y Mundiales?",
+    "answers": [
+      { "text": "Nadia Comăneci", "correct": false },
+      { "text": "Simone Biles", "correct": true },
+      { "text": "Gabby Douglas", "correct": false },
+      { "text": "Aly Raisman", "correct": false }
+    ]
+  },
+  {
+    "id": 181,
+    "category": "sports",
+    "question": "¿Cuántos anillos componen el símbolo oficial de los Juegos Olímpicos?",
+    "answers": [
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "7", "correct": false }
+    ]
+  },
+  {
+    "id": 182,
+    "category": "sports",
+    "question": "¿Cómo se llama la jugada de tres goles anotados por un mismo jugador en un partido de fútbol?",
+    "answers": [
+      { "text": "Doblete", "correct": false },
+      { "text": "Hat-trick", "correct": true },
+      { "text": "Póker", "correct": false },
+      { "text": "Penalty", "correct": false }
+    ]
+  },
+  {
+    "id": 183,
+    "category": "sports",
+    "question": "¿En qué deporte sobre hielo se lanza una piedra de granito hacia una diana deslizándola con escobas?",
+    "answers": [
+      { "text": "Hockey sobre hielo", "correct": false },
+      { "text": "Curling", "correct": true },
+      { "text": "Bobsleigh", "correct": false },
+      { "text": "Skeleton", "correct": false }
+    ]
+  },
+  {
+    "id": 184,
+    "category": "sports",
+    "question": "¿Qué legendario jugador de baloncesto llevó el dorsal número 23 en los Chicago Bulls?",
+    "answers": [
+      { "text": "Kobe Bryant", "correct": false },
+      { "text": "Michael Jordan", "correct": true },
+      { "text": "Magic Johnson", "correct": false },
+      { "text": "Shaquille O'Neal", "correct": false }
+    ]
+  },
+  {
+    "id": 185,
+    "category": "sports",
+    "question": "¿Qué arte marcial coreano de combate se caracteriza por su gran variedad y dinamismo de patadas?",
+    "answers": [
+      { "text": "Judo", "correct": false },
+      { "text": "Taekwondo", "correct": true },
+      { "text": "Aikido", "correct": false },
+      { "text": "Karate", "correct": false }
+    ]
+  },
+  {
+    "id": 186,
+    "category": "sports",
+    "question": "¿Qué trofeo se entrega al equipo campeón de la NFL en el fútbol americano?",
+    "answers": [
+      { "text": "Trofeo Heisman", "correct": false },
+      { "text": "Trofeo Vince Lombardi", "correct": true },
+      { "text": "Stanley Cup", "correct": false },
+      { "text": "Larry O'Brien", "correct": false }
+    ]
+  },
+  {
+    "id": 187,
+    "category": "sports",
+    "question": "¿Cuál de estas pruebas forma parte de un triatlón tradicional olímpico además de la carrera a pie y ciclismo?",
+    "answers": [
+      { "text": "Remo", "correct": false },
+      { "text": "Natación", "correct": true },
+      { "text": "Piragüismo", "correct": false },
+      { "text": "Patinaje", "correct": false }
+    ]
+  },
+  {
+    "id": 188,
+    "category": "sports",
+    "question": "¿Qué equipo de fútbol ha ganado más títulos de la UEFA Champions League?",
+    "answers": [
+      { "text": "AC Milan", "correct": false },
+      { "text": "Real Madrid", "correct": true },
+      { "text": "Bayern Múnich", "correct": false },
+      { "text": "Liverpool FC", "correct": false }
+    ]
+  },
+  {
+    "id": 189,
+    "category": "sports",
+    "question": "¿Cuánto mide la altura de la canasta de baloncesto respecto al suelo según el reglamento FIBA y NBA?",
+    "answers": [
+      { "text": "2,90 metros", "correct": false },
+      { "text": "3,05 metros", "correct": true },
+      { "text": "3,15 metros", "correct": false },
+      { "text": "3,25 metros", "correct": false }
+    ]
+  },
+  {
+    "id": 190,
+    "category": "sports",
+    "question": "¿Qué ciclista belga apodado 'El Caníbal' ganó 5 Tours de Francia y 5 Giros de Italia?",
+    "answers": [
+      { "text": "Eddy Merckx", "correct": true },
+      { "text": "Bernard Hinault", "correct": false },
+      { "text": "Miguel Induráin", "correct": false },
+      { "text": "Jacques Anquetil", "correct": false }
+    ]
+  },
+  {
+    "id": 191,
+    "category": "sports",
+    "question": "¿Qué tarjeta muestra el árbitro en fútbol para expulsar definitivamente a un jugador del partido?",
+    "answers": [
+      { "text": "Amarilla", "correct": false },
+      { "text": "Roja", "correct": true },
+      { "text": "Azul", "correct": false },
+      { "text": "Negra", "correct": false }
+    ]
+  },
+  {
+    "id": 192,
+    "category": "sports",
+    "question": "¿En qué ciudad se celebraron los Juegos Olímpicos de Verano de 1992?",
+    "answers": [
+      { "text": "Seúl", "correct": false },
+      { "text": "Barcelona", "correct": true },
+      { "text": "Atlanta", "correct": false },
+      { "text": "Sídney", "correct": false }
+    ]
+  },
+  {
+    "id": 193,
+    "category": "sports",
+    "question": "¿En qué deporte de raqueta se golpea un volante o pluma en lugar de una pelota convencional?",
+    "answers": [
+      { "text": "Pádel", "correct": false },
+      { "text": "Squash", "correct": false },
+      { "text": "Bádminton", "correct": true },
+      { "text": "Tenis de mesa", "correct": false }
+    ]
+  },
+  {
+    "id": 194,
+    "category": "sports",
+    "question": "¿Cuántas bases recorre un jugador de béisbol para completar una carrera completa?",
+    "answers": [
+      { "text": "3", "correct": false },
+      { "text": "4 (incluyendo home)", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "6", "correct": false }
+    ]
+  },
+  {
+    "id": 195,
+    "category": "sports",
+    "question": "¿Qué país organiza tradicionalmente el torneo de tenis de Roland Garros?",
+    "answers": [
+      { "text": "Inglaterra", "correct": false },
+      { "text": "Francia", "correct": true },
+      { "text": "Estados Unidos", "correct": false },
+      { "text": "Australia", "correct": false }
+    ]
+  },
+  {
+    "id": 196,
+    "category": "sports",
+    "question": "¿Qué posición de waterpolo y fútbol sala es el único jugador habilitado para tocar el balón con todo el cuerpo en su área?",
+    "answers": [
+      { "text": "Defensa central", "correct": false },
+      { "text": "Portero / Guardameta", "correct": true },
+      { "text": "Delantero", "correct": false },
+      { "text": "Pívot", "correct": false }
+    ]
+  },
+  {
+    "id": 197,
+    "category": "sports",
+    "question": "¿Quién fue el legendario piloto brasileño triple campeón del mundo de F1 fallecido en Imola en 1994?",
+    "answers": [
+      { "text": "Nelson Piquet", "correct": false },
+      { "text": "Ayrton Senna", "correct": true },
+      { "text": "Emerson Fittipaldi", "correct": false },
+      { "text": "Rubens Barrichello", "correct": false }
+    ]
+  },
+  {
+    "id": 198,
+    "category": "sports",
+    "question": "¿Cuántos tiempos o mitades reglamentarias tiene un partido de balonmano?",
+    "answers": [
+      { "text": "2 partes de 30 minutos", "correct": true },
+      { "text": "4 cuartos de 15 minutos", "correct": false },
+      { "text": "2 partes de 45 minutos", "correct": false },
+      { "text": "3 periodos de 20 minutos", "correct": false }
+    ]
+  },
+  {
+    "id": 199,
+    "category": "sports",
+    "question": "¿Qué arte marcial japonés fundado por Jigoro Kano se enfoca principalmente en proyecciones y sumisiones en el suelo?",
+    "answers": [
+      { "text": "Karate", "correct": false },
+      { "text": "Kendo", "correct": false },
+      { "text": "Judo", "correct": true },
+      { "text": "Sumo", "correct": false }
+    ]
+  },
+  {
+    "id": 200,
+    "category": "sports",
+    "question": "¿Qué torneo de golf entrega al ganador una icónica chaqueta verde?",
+    "answers": [
+      { "text": "U.S. Open", "correct": false },
+      { "text": "The Masters de Augusta", "correct": true },
+      { "text": "The Open Championship", "correct": false },
+      { "text": "PGA Championship", "correct": false }
+    ]
+  }
+]
