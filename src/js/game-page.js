@@ -1,10 +1,11 @@
 import { checkCurrentAnswer, initGame, loadQuestions, showQuestion } from "./game.js";
-import { getStoredUsername, launchConfetti, setupLogoutButton } from "./utils.js";
+import { getStoredUsername, launchConfetti, setupLogoutButton, addCompletedCategory } from "./utils.js";
 
 const username = getStoredUsername();
 const questionsList = document.querySelector("#questions-list");
 const checkButton = document.querySelector("#global-check-button");
 const resultsModal = document.querySelector("#results-modal");
+const category = new URLSearchParams(window.location.search).get("category") || "all";
 
 if (!username) {
   window.location.href = "../../index.html";
@@ -38,6 +39,7 @@ const handleGameOver = (stats) => {
   checkButton.classList.add("hidden");
 
   if (stats.victory) {
+    addCompletedCategory(username, category);
     launchConfetti();
   }
 };
@@ -57,7 +59,7 @@ checkButton.addEventListener("click", () => {
   }
 });
 
-const category = new URLSearchParams(window.location.search).get("category") || "all";
+
 
 loadQuestions(category).then((hasQuestions) => {
   if (!hasQuestions) {

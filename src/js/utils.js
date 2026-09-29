@@ -4,6 +4,19 @@ export const shuffleArray = (array) => {
 
 export const getStoredUsername = () => localStorage.getItem("username");
 
+export const getCompletedCategories = (username) => {
+	const data = localStorage.getItem(`completed_${username}`);
+	return data ? JSON.parse(data) : [];
+};
+
+export const addCompletedCategory = (username, category) => {
+	const completed = getCompletedCategories(username);
+	if (!completed.includes(category)) {
+		completed.push(category);
+		localStorage.setItem(`completed_${username}`, JSON.stringify(completed));
+	}
+};
+
 export const clearUserSession = () => {
 	localStorage.removeItem("username");
 	sessionStorage.removeItem("gameStats");
