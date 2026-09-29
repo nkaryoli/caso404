@@ -12,11 +12,11 @@ if (!username || !stats) {
   document.querySelector("#wrong-answers").textContent = stats.wrong;
   document.querySelector("#accuracy").textContent = `${stats.accuracy}%`;
   document.querySelector("#results-title").textContent = stats.victory
-    ? "CASO RESUELTO"
-    : "CASO PERDIDO";
+    ? "¡VICTORIA!"
+    : "DERROTA";
   document.querySelector("#results-subtitle").textContent = stats.victory
-    ? "Has superado todas las pruebas. El servidor ha sido localizado."
-    : "La investigación ha terminado antes de completar todas las pruebas.";
+    ? "Has superado la categoría con éxito. ¡Eres un maestro de la Arena!"
+    : "Has fallado. Tu participación en esta ronda ha terminado.";
 
   if (stats.victory) {
     document.body.classList.add("victory");

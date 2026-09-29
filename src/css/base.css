@@ -1,7 +1,7 @@
 :root {
   --bg-main: #060b0e;
   --bg-radial: radial-gradient(circle at top, #143542 0%, var(--bg-main) 60%);
-  --bg-page: linear-gradient(#584bb4, #6a416b, #685082);
+  --bg-page: linear-gradient(#3f40ae,#584bb4, #685082);
 
   --card-bg: #0e1e24;
   --card-border: #1a323c;

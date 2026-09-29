@@ -119,6 +119,18 @@ body.victory .modal-content {
   font-weight: 700;
 }
 
+#correct-answers {
+  color: var(--success);
+}
+
+#wrong-answers {
+  color: var(--error);
+}
+
+#accuracy {
+  color: var(--contrast);
+}
+
 #restart-button {
   width: 100%;
   margin-top: 0;

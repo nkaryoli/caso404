@@ -1,39 +1,57 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caso 404</title>
-    <link rel="stylesheet" href="./src/css/styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
-  </head>
 
-  <body>
-    <main>
-      <section id="home">
-        <div class="intro">
-          <h2>EL SERVIDOR HA DESAPARECIDO</h2>
-          <p>
-            Un servidor crítico ha desaparecido de la red. Necesitamos un
-            investigador capaz de resolver las pruebas y localizarlo.
-          </p>
-          <p>Introduce tu nombre de investigador para comenzar.</p>
-          <form id="username-form" class="username-form">
-            <label for="username">Nombre de investigador</label>
-            <input
-              type="text"
-              id="username"
-              placeholder="Introduce tu nombre..."
-              autocomplete="off"
-            />
-            <button id="start-button" type="submit">
-              INICIAR INVESTIGACIÓN
-            </button>
-            <p id="error-message" class="error-message"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-    <script type="module" src="./src/js/app.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Aerena</title>
+  <link rel="stylesheet" href="./src/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+  <main>
+    <section id="home">
+      <div class="intro">
+        <h2>BIENVENIDO A LA QUIZ ARENA</h2>
+
+        <p>
+          Has sido seleccionado para entrar en la <strong>QUIZ ARENA</strong>,
+          un desafío donde solo los jugadores capaces de demostrar sus conocimientos
+          consiguen llegar hasta la ronda final.
+        </p>
+
+        <!-- <p>
+          La competición está dividida en cinco disciplinas:
+          <strong>Música, Videojuegos, Programación, Películas y Deportes.</strong>
+          Cada ronda pondrá a prueba tus conocimientos y tus reflejos.
+        </p>
+
+        <p>
+          Supera las preguntas, acumula aciertos y avanza por la Arena.
+          Pero cuidado: un solo error puede poner fin a tu partida.
+        </p>
+-->
+        <p> 
+          <strong>¿Tienes lo necesario para llegar hasta la final?</strong>
+        </p>
+
+        <form id="username-form" class="username-form">
+          <label for="username">IDENTIFÍCATE, JUGADOR</label>
+
+          <input type="text" id="username" placeholder="Introduce tu nombre..." autocomplete="off" />
+
+          <button id="start-button" type="submit">
+            ENTRAR EN LA ARENA
+          </button>
+
+          <p id="error-message" class="error-message"></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./src/js/app.js"></script>
+</body>
+
 </html>
